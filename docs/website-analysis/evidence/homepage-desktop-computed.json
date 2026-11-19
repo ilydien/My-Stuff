@@ -1,0 +1,3751 @@
+{
+  "url": "https://en.gundam-official.com/",
+  "title": "GUNDAM Official Website",
+  "lang": "en",
+  "ts": "2026-11-19T03:51:58.775Z",
+  "viewport": {
+    "w": 1440,
+    "h": 900,
+    "dpr": 1
+  },
+  "doc": {
+    "w": 1440,
+    "h": 6205
+  },
+  "fonts": [
+    {
+      "family": "jetBrainsMonoGreek",
+      "weight": "400",
+      "style": "normal",
+      "status": "loaded"
+    },
+    {
+      "family": "jetBrainsMonoGreek",
+      "weight": "700",
+      "style": "normal",
+      "status": "loaded"
+    },
+    {
+      "family": "jetBrainsMonoGreek Fallback",
+      "weight": "normal",
+      "style": "normal",
+      "status": "unloaded"
+    },
+    {
+      "family": "inter",
+      "weight": "400",
+      "style": "normal",
+      "status": "loaded"
+    },
+    {
+      "family": "inter",
+      "weight": "500",
+      "style": "normal",
+      "status": "loaded"
+    },
+    {
+      "family": "inter",
+      "weight": "600",
+      "style": "normal",
+      "status": "loaded"
+    },
+    {
+      "family": "inter",
+      "weight": "700",
+      "style": "normal",
+      "status": "loaded"
+    },
+    {
+      "family": "inter",
+      "weight": "400",
+      "style": "italic",
+      "status": "unloaded"
+    },
+    {
+      "family": "inter",
+      "weight": "500",
+      "style": "italic",
+      "status": "unloaded"
+    },
+    {
+      "family": "inter",
+      "weight": "600",
+      "style": "italic",
+      "status": "unloaded"
+    },
+    {
+      "family": "inter",
+      "weight": "700",
+      "style": "italic",
+      "status": "unloaded"
+    },
+    {
+      "family": "inter Fallback",
+      "weight": "normal",
+      "style": "normal",
+      "status": "error"
+    },
+    {
+      "family": "notoSansJP",
+      "weight": "400",
+      "style": "normal",
+      "status": "unloaded"
+    },
+    {
+      "family": "notoSansJP",
+      "weight": "500",
+      "style": "normal",
+      "status": "unloaded"
+    },
+    {
+      "family": "notoSansJP",
+      "weight": "600",
+      "style": "normal",
+      "status": "unloaded"
+    },
+    {
+      "family": "notoSansJP",
+      "weight": "700",
+      "style": "normal",
+      "status": "unloaded"
+    },
+    {
+      "family": "notoSansJP Fallback",
+      "weight": "normal",
+      "style": "normal",
+      "status": "unloaded"
+    },
+    {
+      "family": "notoSansHK",
+      "weight": "400",
+      "style": "normal",
+      "status": "unloaded"
+    },
+    {
+      "family": "notoSansHK",
+      "weight": "500",
+      "style": "normal",
+      "status": "unloaded"
+    },
+    {
+      "family": "notoSansHK",
+      "weight": "600",
+      "style": "normal",
+      "status": "unloaded"
+    },
+    {
+      "family": "notoSansHK",
+      "weight": "700",
+      "style": "normal",
+      "status": "unloaded"
+    },
+    {
+      "family": "notoSansHK Fallback",
+      "weight": "normal",
+      "style": "normal",
+      "status": "unloaded"
+    },
+    {
+      "family": "notoSansThai",
+      "weight": "400",
+      "style": "normal",
+      "status": "unloaded"
+    },
+    {
+      "family": "notoSansThai",
+      "weight": "500",
+      "style": "normal",
+      "status": "unloaded"
+    },
+    {
+      "family": "notoSansThai",
+      "weight": "600",
+      "style": "normal",
+      "status": "unloaded"
+    },
+    {
+      "family": "notoSansThai",
+      "weight": "700",
+      "style": "normal",
+      "status": "unloaded"
+    },
+    {
+      "family": "notoSansThai Fallback",
+      "weight": "normal",
+      "style": "normal",
+      "status": "unloaded"
+    },
+    {
+      "family": "jetBrainsMono",
+      "weight": "400",
+      "style": "normal",
+      "status": "unloaded"
+    },
+    {
+      "family": "jetBrainsMono",
+      "weight": "700",
+      "style": "normal",
+      "status": "unloaded"
+    },
+    {
+      "family": "jetBrainsMono Fallback",
+      "weight": "normal",
+      "style": "normal",
+      "status": "unloaded"
+    },
+    {
+      "family": "manrope",
+      "weight": "400",
+      "style": "normal",
+      "status": "unloaded"
+    },
+    {
+      "family": "manrope",
+      "weight": "500",
+      "style": "normal",
+      "status": "unloaded"
+    },
+    {
+      "family": "manrope",
+      "weight": "600",
+      "style": "normal",
+      "status": "loaded"
+    },
+    {
+      "family": "manrope",
+      "weight": "700",
+      "style": "normal",
+      "status": "unloaded"
+    },
+    {
+      "family": "manrope Fallback",
+      "weight": "normal",
+      "style": "normal",
+      "status": "unloaded"
+    },
+    {
+      "family": "notoSans",
+      "weight": "400",
+      "style": "normal",
+      "status": "unloaded"
+    },
+    {
+      "family": "notoSans",
+      "weight": "500",
+      "style": "normal",
+      "status": "unloaded"
+    },
+    {
+      "family": "notoSans",
+      "weight": "600",
+      "style": "normal",
+      "status": "unloaded"
+    },
+    {
+      "family": "notoSans",
+      "weight": "700",
+      "style": "normal",
+      "status": "unloaded"
+    },
+    {
+      "family": "notoSans Fallback",
+      "weight": "normal",
+      "style": "normal",
+      "status": "unloaded"
+    },
+    {
+      "family": "notoSansSC",
+      "weight": "400",
+      "style": "normal",
+      "status": "unloaded"
+    },
+    {
+      "family": "notoSansSC",
+      "weight": "500",
+      "style": "normal",
+      "status": "unloaded"
+    },
+    {
+      "family": "notoSansSC",
+      "weight": "600",
+      "style": "normal",
+      "status": "unloaded"
+    },
+    {
+      "family": "notoSansSC",
+      "weight": "700",
+      "style": "normal",
+      "status": "unloaded"
+    },
+    {
+      "family": "notoSansSC Fallback",
+      "weight": "normal",
+      "style": "normal",
+      "status": "unloaded"
+    },
+    {
+      "family": "notoSansTC",
+      "weight": "400",
+      "style": "normal",
+      "status": "unloaded"
+    },
+    {
+      "family": "notoSansTC",
+      "weight": "500",
+      "style": "normal",
+      "status": "unloaded"
+    },
+    {
+      "family": "notoSansTC",
+      "weight": "600",
+      "style": "normal",
+      "status": "unloaded"
+    },
+    {
+      "family": "notoSansTC",
+      "weight": "700",
+      "style": "normal",
+      "status": "unloaded"
+    },
+    {
+      "family": "notoSansTC Fallback",
+      "weight": "normal",
+      "style": "normal",
+      "status": "unloaded"
+    },
+    {
+      "family": "notoSansKR",
+      "weight": "400",
+      "style": "normal",
+      "status": "unloaded"
+    },
+    {
+      "family": "notoSansKR",
+      "weight": "500",
+      "style": "normal",
+      "status": "unloaded"
+    },
+    {
+      "family": "notoSansKR",
+      "weight": "600",
+      "style": "normal",
+      "status": "unloaded"
+    },
+    {
+      "family": "notoSansKR",
+      "weight": "700",
+      "style": "normal",
+      "status": "unloaded"
+    },
+    {
+      "family": "notoSansKR Fallback",
+      "weight": "normal",
+      "style": "normal",
+      "status": "unloaded"
+    },
+    {
+      "family": "swiper-icons",
+      "weight": "400",
+      "style": "normal",
+      "status": "unloaded"
+    }
+  ],
+  "customProps": {
+    "--swiper-navigation-size": "44px",
+    "--swiper-theme-color": "#007aff",
+    "--font-notoSans": "\"notoSans\",\"notoSans Fallback\"",
+    "--font-manrope": "\"manrope\",\"manrope Fallback\"",
+    "--font-jetBrains-mono": "\"jetBrainsMono\",\"jetBrainsMono Fallback\"",
+    "--font-inter": "\"inter\",\"inter Fallback\"",
+    "--font-jetBrains-mono-greek": "\"jetBrainsMonoGreek\",\"jetBrainsMonoGreek Fallback\""
+  },
+  "keyframes": {
+    "Loading_blinkSteps__RIbCd": "@keyframes Loading_blinkSteps__RIbCd { 0%, 50%, 100% { opacity: 1; } 25%, 75% { opacity: 0; } }",
+    "HaroAnimation_loadingBlink__2KG3G": "@keyframes HaroAnimation_loadingBlink__2KG3G { 0%, 50% { opacity: 1; } 51%, 100% { opacity: 0.3; } }",
+    "Header_expandFromCenter__6uUQC": "@keyframes Header_expandFromCenter__6uUQC { 100% { transform: scaleX(1); } }",
+    "Header_fadeInSlideInLeft__mzcVz": "@keyframes Header_fadeInSlideInLeft__mzcVz { 0% { opacity: 0; transform: translateX(-20px); } 100% { opacity: 1; transform: translateX(0px); } }",
+    "Header_clickRipple__eOxtS": "@keyframes Header_clickRipple__eOxtS { 0% { transform: translate(-50%, -50%) scale(0); opacity: 0.3; } 100% { transform: translate(-50%, -50%) scale(1); opacity: 0.3; } }",
+    "Accordion_slideDown__A7UmU": "@keyframes Accordion_slideDown__A7UmU { 0% { max-height: 0px; opacity: 0; transform: translateY(-10px); } 100% { max-height: 1000px; opacity: 1; transform: translateY(0px); } }",
+    "swiper-preloader-spin": "@keyframes swiper-preloader-spin { 0% { transform: rotate(0deg); } 100% { transform: rotate(1turn); } }",
+    "loading_spin__6GlHs": "@keyframes loading_spin__6GlHs { 0% { transform: rotate(0deg); } 100% { transform: rotate(1turn); } }",
+    "mui-auto-fill": "@keyframes mui-auto-fill { 0% { display: block; } }",
+    "mui-auto-fill-cancel": "@keyframes mui-auto-fill-cancel { 0% { display: block; } }",
+    "onetrust-fade-in": "@keyframes onetrust-fade-in { 0% { opacity: 0; } 100% { opacity: 1; } }",
+    "ot-go-spin": "@keyframes ot-go-spin { 0% { transform: rotate(0deg); } 100% { transform: rotate(360deg); } }",
+    "ot-slide-in-left": "@keyframes ot-slide-in-left { 0% { transform: translate3d(-100%, 0px, 0px); } 100% { transform: translate3d(0px, 0px, 0px); } }",
+    "ot-slide-in-right": "@keyframes ot-slide-in-right { 0% { transform: translate3d(100%, 0px, 0px); } 100% { transform: translate3d(0px, 0px, 0px); } }",
+    "ot-slide-out-left": "@keyframes ot-slide-out-left { 0% { transform: translate3d(0px, 0px, 0px); } 100% { transform: translate3d(-100%, 0px, 0px); } }",
+    "ot-slide-out-right": "@keyframes ot-slide-out-right { 0% { transform: translate3d(0px, 0px, 0px); } 100% { transform: translate3d(100%, 0px, 0px); } }"
+  },
+  "mediaQueries": [
+    "(hover: none)",
+    "(max-height: 600px)",
+    "(max-width: 1025px)",
+    "(max-width: 480px)",
+    "(max-width: 500px)",
+    "(min-width: 0px)",
+    "(min-width: 1025px)",
+    "(min-width: 400px)",
+    "(min-width: 550px)",
+    "(min-width: 600px)",
+    "(min-width: 768px)",
+    "(orientation: landscape)",
+    "(orientation: landscape) and (max-width: 1025px)",
+    "only screen and (max-width: 320px)",
+    "only screen and (max-width: 425px)",
+    "only screen and (max-width: 530px)",
+    "only screen and (max-width: 600px)",
+    "only screen and (max-width: 896px) and (max-height: 425px) and (orientation: landscape)",
+    "only screen and (min-width: 426px) and (max-width: 896px) and (orientation: landscape)",
+    "print",
+    "print, (prefers-reduced-motion)",
+    "screen and (max-height: 450px)"
+  ],
+  "fontFaces": [
+    "@font-face { font-family: jetBrainsMonoGreek; src: url(\"/_next/static/media/411631b996d3653c-s.p.woff2\") format(\"woff2\"); font-style: normal; font-weight: 400; font-display: swap; }",
+    "@font-face { font-family: jetBrainsMonoGreek; src: url(\"/_next/static/media/9f3fbe004d11ef02-s.p.woff2\") format(\"woff2\"); font-style: normal; font-weight: 700; font-display: swap; }",
+    "@font-face { font-family: jetBrainsMonoGreek Fallback; src: local(\"Arial\"); ascent-override: 77.57%; descent-override: 22.82%; line-gap-override: 0%; size-adjust: 131.49%; }",
+    "@font-face { font-family: inter; src: url(\"/_next/static/media/ef6d3f52c547a6e3-s.p.woff2\") format(\"woff2\"); font-style: normal; font-weight: 400; font-display: swap; }",
+    "@font-face { font-family: inter; src: url(\"/_next/static/media/b7b43acee81d05a8-s.p.woff2\") format(\"woff2\"); font-style: normal; font-weight: 500; font-display: swap; }",
+    "@font-face { font-family: inter; src: url(\"/_next/static/media/8fb1a96451cec840-s.p.woff2\") format(\"woff2\"); font-style: normal; font-weight: 600; font-display: swap; }",
+    "@font-face { font-family: inter; src: url(\"/_next/static/media/953b7aa585d36a2b-s.p.woff2\") format(\"woff2\"); font-style: normal; font-weight: 700; font-display: swap; }",
+    "@font-face { font-family: inter; src: url(\"/_next/static/media/d5390949c79b867c-s.p.woff2\") format(\"woff2\"); font-style: italic; font-weight: 400; font-display: swap; }",
+    "@font-face { font-family: inter; src: url(\"/_next/static/media/091c03e5d6ea6d84-s.p.woff2\") format(\"woff2\"); font-style: italic; font-weight: 500; font-display: swap; }",
+    "@font-face { font-family: inter; src: url(\"/_next/static/media/4a0ad145d59630d5-s.p.woff2\") format(\"woff2\"); font-style: italic; font-weight: 600; font-display: swap; }",
+    "@font-face { font-family: inter; src: url(\"/_next/static/media/235e1413f94eb7df-s.p.woff2\") format(\"woff2\"); font-style: italic; font-weight: 700; font-display: swap; }",
+    "@font-face { font-family: inter Fallback; src: local(\"Arial\"); ascent-override: 89.79%; descent-override: 22.36%; line-gap-override: 0%; size-adjust: 107.89%; }",
+    "@font-face { font-family: notoSansJP; src: url(\"/_next/static/media/bdf029be9f79bf1e-s.p.woff2\") format(\"woff2\"); font-style: normal; font-weight: 400; font-display: swap; }",
+    "@font-face { font-family: notoSansJP; src: url(\"/_next/static/media/2ff7fc6f93c85c9f-s.p.woff2\") format(\"woff2\"); font-style: normal; font-weight: 500; font-display: swap; }",
+    "@font-face { font-family: notoSansJP; src: url(\"/_next/static/media/abb4c4db0c6ddcfd-s.p.woff2\") format(\"woff2\"); font-style: normal; font-weight: 600; font-display: swap; }",
+    "@font-face { font-family: notoSansJP; src: url(\"/_next/static/media/8a968650a42b8e0a-s.p.woff2\") format(\"woff2\"); font-style: normal; font-weight: 700; font-display: swap; }",
+    "@font-face { font-family: notoSansJP Fallback; src: local(\"Arial\"); ascent-override: 110.26%; descent-override: 27.38%; line-gap-override: 0%; size-adjust: 105.2%; }",
+    "@font-face { font-family: notoSansHK; src: url(\"/_next/static/media/b32069ec40832607-s.p.woff2\") format(\"woff2\"); font-style: normal; font-weight: 400; font-display: swap; }",
+    "@font-face { font-family: notoSansHK; src: url(\"/_next/static/media/a36f5cf69823f84e-s.p.woff2\") format(\"woff2\"); font-style: normal; font-weight: 500; font-display: swap; }",
+    "@font-face { font-family: notoSansHK; src: url(\"/_next/static/media/b0bd75d68841d498-s.p.woff2\") format(\"woff2\"); font-style: normal; font-weight: 600; font-display: swap; }",
+    "@font-face { font-family: notoSansHK; src: url(\"/_next/static/media/b0d37a425cd5b07d-s.p.woff2\") format(\"woff2\"); font-style: normal; font-weight: 700; font-display: swap; }",
+    "@font-face { font-family: notoSansHK Fallback; src: local(\"Arial\"); ascent-override: 110.26%; descent-override: 27.38%; line-gap-override: 0%; size-adjust: 105.2%; }",
+    "@font-face { font-family: notoSansThai; src: url(\"/_next/static/media/7366836f3da64faa-s.p.woff2\") format(\"woff2\"); font-style: normal; font-weight: 400; font-display: swap; }",
+    "@font-face { font-family: notoSansThai; src: url(\"/_next/static/media/d56a81ebacbb401d-s.p.woff2\") format(\"woff2\"); font-style: normal; font-weight: 500; font-display: swap; }",
+    "@font-face { font-family: notoSansThai; src: url(\"/_next/static/media/e6bdbbc160f6e130-s.p.woff2\") format(\"woff2\"); font-style: normal; font-weight: 600; font-display: swap; }",
+    "@font-face { font-family: notoSansThai; src: url(\"/_next/static/media/103f701cd68b00da-s.p.woff2\") format(\"woff2\"); font-style: normal; font-weight: 700; font-display: swap; }",
+    "@font-face { font-family: notoSansThai Fallback; src: local(\"Arial\"); ascent-override: 99.66%; descent-override: 42.27%; line-gap-override: 0%; size-adjust: 106.47%; }",
+    "@font-face { font-family: jetBrainsMono; src: url(\"/_next/static/media/db9d659a1acad1e2-s.p.woff2\") format(\"woff2\"); font-style: normal; font-weight: 400; font-display: swap; }",
+    "@font-face { font-family: jetBrainsMono; src: url(\"/_next/static/media/9545a3d1fceacf5c-s.p.woff2\") format(\"woff2\"); font-style: normal; font-weight: 700; font-display: swap; }",
+    "@font-face { font-family: jetBrainsMono Fallback; src: local(\"Arial\"); ascent-override: 77.57%; descent-override: 22.82%; line-gap-override: 0%; size-adjust: 131.49%; }",
+    "@font-face { font-family: manrope; src: url(\"/_next/static/media/b69ff29fd08fb8ec-s.p.woff2\") format(\"woff2\"); font-style: normal; font-weight: 400; font-display: swap; }",
+    "@font-face { font-family: manrope; src: url(\"/_next/static/media/1439e66f980f1bac-s.p.woff2\") format(\"woff2\"); font-style: normal; font-weight: 500; font-display: swap; }",
+    "@font-face { font-family: manrope; src: url(\"/_next/static/media/ef413a9eff181b96-s.p.woff2\") format(\"woff2\"); font-style: normal; font-weight: 600; font-display: swap; }",
+    "@font-face { font-family: manrope; src: url(\"/_next/static/media/4fc2723e7975d97b-s.p.woff2\") format(\"woff2\"); font-style: normal; font-weight: 700; font-display: swap; }",
+    "@font-face { font-family: manrope Fallback; src: local(\"Arial\"); ascent-override: 102.74%; descent-override: 28.91%; line-gap-override: 0%; size-adjust: 103.76%; }",
+    "@font-face { font-family: notoSans; src: url(\"/_next/static/media/1d02f490f5cc37ac-s.p.woff2\") format(\"woff2\"); font-style: normal; font-weight: 400; font-display: swap; }",
+    "@font-face { font-family: notoSans; src: url(\"/_next/static/media/10feed5d5dd084de-s.p.woff2\") format(\"woff2\"); font-style: normal; font-weight: 500; font-display: swap; }",
+    "@font-face { font-family: notoSans; src: url(\"/_next/static/media/cb57c6a98d46fca0-s.p.woff2\") format(\"woff2\"); font-style: normal; font-weight: 600; font-display: swap; }",
+    "@font-face { font-family: notoSans; src: url(\"/_next/static/media/fd476b27505e146e-s.p.woff2\") format(\"woff2\"); font-style: normal; font-weight: 700; font-display: swap; }",
+    "@font-face { font-family: notoSans Fallback; src: local(\"Arial\"); ascent-override: 100.41%; descent-override: 27.52%; line-gap-override: 0%; size-adjust: 106.47%; }",
+    "@font-face { font-family: notoSansSC; src: url(\"/_next/static/media/e25467c81b2f6847-s.p.woff2\") format(\"woff2\"); font-style: normal; font-weight: 400; font-display: swap; }",
+    "@font-face { font-family: notoSansSC; src: url(\"/_next/static/media/d3553b6f774f5f10-s.p.woff2\") format(\"woff2\"); font-style: normal; font-weight: 500; font-display: swap; }",
+    "@font-face { font-family: notoSansSC; src: url(\"/_next/static/media/f23c085c81610b86-s.p.woff2\") format(\"woff2\"); font-style: normal; font-weight: 600; font-display: swap; }",
+    "@font-face { font-family: notoSansSC; src: url(\"/_next/static/media/6e0a7691717621ac-s.p.woff2\") format(\"woff2\"); font-style: normal; font-weight: 700; font-display: swap; }",
+    "@font-face { font-family: notoSansSC Fallback; src: local(\"Arial\"); ascent-override: 110.26%; descent-override: 27.38%; line-gap-override: 0%; size-adjust: 105.2%; }",
+    "@font-face { font-family: notoSansTC; src: url(\"/_next/static/media/1fdf51020ecd9264-s.p.woff2\") format(\"woff2\"); font-style: normal; font-weight: 400; font-display: swap; }",
+    "@font-face { font-family: notoSansTC; src: url(\"/_next/static/media/b9121c7499e4b7fb-s.p.woff2\") format(\"woff2\"); font-style: normal; font-weight: 500; font-display: swap; }",
+    "@font-face { font-family: notoSansTC; src: url(\"/_next/static/media/0b5b82fb8df8559f-s.p.woff2\") format(\"woff2\"); font-style: normal; font-weight: 600; font-display: swap; }",
+    "@font-face { font-family: notoSansTC; src: url(\"/_next/static/media/14121eb7c9f58cae-s.p.woff2\") format(\"woff2\"); font-style: normal; font-weight: 700; font-display: swap; }",
+    "@font-face { font-family: notoSansTC Fallback; src: local(\"Arial\"); ascent-override: 110.26%; descent-override: 27.38%; line-gap-override: 0%; size-adjust: 105.2%; }",
+    "@font-face { font-family: notoSansKR; src: url(\"/_next/static/media/50e52875641e7ddd-s.p.woff2\") format(\"woff2\"); font-style: normal; font-weight: 400; font-display: swap; }",
+    "@font-face { font-family: notoSansKR; src: url(\"/_next/static/media/72f939f890f7dddf-s.p.woff2\") format(\"woff2\"); font-style: normal; font-weight: 500; font-display: swap; }",
+    "@font-face { font-family: notoSansKR; src: url(\"/_next/static/media/e104f8489646ed7c-s.p.woff2\") format(\"woff2\"); font-style: normal; font-weight: 600; font-display: swap; }",
+    "@font-face { font-family: notoSansKR; src: url(\"/_next/static/media/0afc7522e9d0617d-s.p.woff2\") format(\"woff2\"); font-style: normal; font-weight: 700; font-display: swap; }",
+    "@font-face { font-family: notoSansKR Fallback; src: local(\"Arial\"); ascent-override: 110.26%; descent-override: 27.38%; line-gap-override: 0%; size-adjust: 105.2%; }",
+    "@font-face { font-family: swiper-icons; src: url(\"data:application/font-woff;charset=utf-8;base64, d09GRgABAAAAAAZgABAAAAAADAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABGRlRNAAAGRAAAABoAAAAci6qHkUdERUYAAAWgAAAAIwAAACQAYABXR1BPUwAABhQAAAAuAAAANuAY7+xHU"
+  ],
+  "colorFreq": [
+    [
+      "rgb(255, 255, 255)",
+      123
+    ],
+    [
+      "rgb(174, 174, 174)",
+      121
+    ],
+    [
+      "rgb(34, 34, 34)",
+      88
+    ],
+    [
+      "rgba(0, 0, 0, 0)",
+      29
+    ],
+    [
+      "rgb(0, 0, 0)",
+      26
+    ],
+    [
+      "rgb(102, 102, 102)",
+      23
+    ],
+    [
+      "rgb(216, 216, 216)",
+      19
+    ],
+    [
+      "rgba(255, 255, 255, 0.2)",
+      14
+    ],
+    [
+      "rgb(240, 240, 240)",
+      13
+    ],
+    [
+      "rgb(56, 96, 190)",
+      13
+    ],
+    [
+      "rgb(105, 105, 105)",
+      10
+    ],
+    [
+      "rgba(0, 0, 0, 0.1)",
+      9
+    ],
+    [
+      "rgb(219, 219, 219)",
+      8
+    ],
+    [
+      "rgba(0, 0, 0, 0.5)",
+      8
+    ],
+    [
+      "rgb(226, 226, 226)",
+      8
+    ],
+    [
+      "rgb(233, 233, 233)",
+      7
+    ],
+    [
+      "rgba(0, 0, 0, 0.26)",
+      7
+    ],
+    [
+      "rgba(255, 255, 255, 0.3)",
+      6
+    ],
+    [
+      "rgb(140, 140, 140)",
+      6
+    ],
+    [
+      "rgb(248, 248, 248)",
+      6
+    ],
+    [
+      "rgb(82, 82, 82)",
+      5
+    ],
+    [
+      "rgba(0, 0, 0, 0.54)",
+      5
+    ],
+    [
+      "rgb(46, 54, 68)",
+      5
+    ],
+    [
+      "rgb(215, 215, 215)",
+      5
+    ],
+    [
+      "rgba(0, 0, 0, 0.04)",
+      4
+    ],
+    [
+      "rgba(0, 0, 0, 0.25)",
+      3
+    ],
+    [
+      "rgba(0, 0, 0, 0.15)",
+      3
+    ],
+    [
+      "rgb(204, 204, 204)",
+      3
+    ],
+    [
+      "rgb(118, 118, 118)",
+      3
+    ],
+    [
+      "rgba(0, 0, 0, 0.23)",
+      3
+    ],
+    [
+      "rgb(86, 86, 86)",
+      3
+    ],
+    [
+      "rgb(70, 130, 84)",
+      3
+    ],
+    [
+      "rgb(77, 77, 77)",
+      3
+    ],
+    [
+      "rgb(104, 182, 49)",
+      3
+    ],
+    [
+      "rgb(101, 101, 101)",
+      3
+    ],
+    [
+      "rgb(0, 160, 233)",
+      3
+    ],
+    [
+      "rgb(246, 246, 244)",
+      3
+    ],
+    [
+      "rgb(138, 127, 194)",
+      2
+    ],
+    [
+      "rgb(128, 190, 221)",
+      2
+    ],
+    [
+      "rgb(140, 208, 204)",
+      2
+    ],
+    [
+      "rgb(230, 0, 0)",
+      2
+    ],
+    [
+      "rgb(254, 220, 148)",
+      2
+    ],
+    [
+      "rgb(122, 122, 122)",
+      2
+    ],
+    [
+      "rgba(0, 0, 0, 0.6)",
+      2
+    ],
+    [
+      "rgb(119, 119, 119)",
+      2
+    ]
+  ],
+  "radiusFreq": [
+    [
+      "5px",
+      17
+    ],
+    [
+      "50%",
+      12
+    ],
+    [
+      "0px",
+      10
+    ],
+    [
+      "2px",
+      10
+    ],
+    [
+      "3px",
+      9
+    ],
+    [
+      "4px",
+      8
+    ],
+    [
+      "50px",
+      5
+    ],
+    [
+      "1px",
+      4
+    ],
+    [
+      "8px",
+      3
+    ],
+    [
+      "1.6px",
+      3
+    ],
+    [
+      "unset",
+      2
+    ],
+    [
+      "inherit",
+      2
+    ],
+    [
+      "20px",
+      2
+    ],
+    [
+      "3px 3px 0px 0px",
+      1
+    ],
+    [
+      "0px 0px 0px 3px",
+      1
+    ],
+    [
+      "0.5px",
+      1
+    ],
+    [
+      "6px",
+      1
+    ],
+    [
+      "var(--swiper-pagination-bullet-border-radius,50%)",
+      1
+    ],
+    [
+      "2.5px",
+      1
+    ],
+    [
+      "10px",
+      1
+    ]
+  ],
+  "clipPaths": [
+    [
+      "polygon(9.65723px 0.999985px, calc(100% - 4px) 0.999985px, calc(100% - 4px) 0.999985px, calc(100% - 3.43228px) 1.04579px, calc(100% - 2.89373px) 1.17842px, calc(100% - 2.39155px) 1.39065px, calc(100% - 1.93294px) 1.67528px, calc(100% - 1.52513px) 2.02511px, calc(100% - 1.1753px) 2.43293px, calc(100% - 0.890663px) 2.89153px, calc(100% - 0.678432px) 3.39371px, calc(100% - 0.545809px) 3.93226px, calc(100% - 0.5px) 4.49998px, calc(100% - 0.5px) calc(100% - 10.1572px), calc(100% - 0.5px) calc(100% - 10.1572px), calc(100% - 0.510988px) calc(100% - 9.88005px), calc(100% - 0.543624px) calc(100% - 9.60632px), calc(100% - 0.597416px) calc(100% - 9.3372px), calc(100% - 0.671872px) calc(100% - 9.07386px), calc(100% - 0.7665px) calc(100% - 8.81749px), calc(100% - 0.880808px) calc(100% - 8.56928px), calc(100% - 1.0143px) calc(100% - 8.33041px), calc(100% - 1.1665px) calc(100% - 8.10206px), calc(100% - 1.33689px) calc(100% - 7.88543px), calc(100% - 1.525px) calc(100% - 7.6817px), calc(100% - 7.182px) calc(100% - 2.0254px), calc(100% - 7.182px) calc(100% - 2.0254px), calc(100% - 7.38565px) calc(100% - 1.83718px), calc(100% - 7.60222px) calc(100% - 1.6667px), calc(100% - 7.8305px) calc(100% - 1.51444px), calc(100% - 8.06933px) calc(100% - 1.38089px), calc(100% - 8.3175px) calc(100% - 1.26655px), calc(100% - 8.57383px) calc(100% - 1.1719px), calc(100% - 8.83714px) calc(100% - 1.09743px), calc(100% - 9.10622px) calc(100% - 1.04363px), calc(100% - 9.37991px) calc(100% - 1.01099px), calc(100% - 9.657px) calc(100% - 1px), 4px calc(100% - 1px), 4px calc(100% - 1px), 3.43228px calc(100% - 1.04581px), 2.89373px calc(100% - 1.17843px), 2.39155px calc(100% - 1.39066px), 1.93294px calc(100% - 1.6753px), 1.52513px calc(100% - 2.02513px), 1.1753px calc(100% - 2.43294px), 0.890663px calc(100% - 2.89155px), 0.678432px calc(100% - 3.39373px), 0.545809px calc(100% - 3.93228px), 0.5px calc(100% - 4.5px), 0.5px 10.1572px, 0.5px 10.1572px, 0.510989px 9.88004px, 0.543628px 9.6063px, 0.597429px 9.33717px, 0.671901px 9.07383px, 0.766554px 8.81746px, 0.880898px 8.56925px, 1.01444px 8.33037px, 1.1667px 8.10202px, 1.33718px 7.88538px, 1.52539px 7.68163px, 7.18164px 2.02538px, 7.18164px 2.02538px, 7.38539px 1.83717px, 7.60204px 1.66669px, 7.83039px 1.51443px, 8.06927px 1.38088px, 8.31748px 1.26654px, 8.57385px 1.17189px, 8.8372px 1.09741px, 9.10633px 1.04361px, 9.38007px 1.01097px, 9.65723px 0.999985px)",
+      6
+    ],
+    [
+      "polygon(0px 0px, 200px 0px, 200px calc(100% - 20px), 180px 100%, 0px 100%)",
+      4
+    ],
+    [
+      "polygon(12px 0px, 100% 0px, 100% calc(100% - 12px), calc(100% - 12px) 100%, 0px 100%, 0px 12px)",
+      3
+    ],
+    [
+      "polygon(8px 0px, 100% 0px, 100% calc(100% - 8px), calc(100% - 8px) 100%, 0px 100%, 0px 8px)",
+      3
+    ],
+    [
+      "polygon(0px 0px, 100% 0px, 100% calc(100% - 12px), calc(100% - 12px) 100%, 0px 100%, 0px 0px)",
+      2
+    ],
+    [
+      "polygon(0px 0px, 100% 0px, 100% calc(100% - 20px), calc(100% - 20px) 100%, 0px 100%)",
+      2
+    ],
+    [
+      "polygon(30px 0px, 100% 0px, 100% calc(100% - 30px), calc(100% - 30px) 100%, 0px 100%, 0px 30px)",
+      2
+    ],
+    [
+      "polygon(0px 0px, 100% 0px, 100% calc(100% - 8px), calc(100% - 8px) 100%, 0px 100%, 0px 8px)",
+      1
+    ],
+    [
+      "polygon(10.5px 0px, 100% 0px, 100% calc(100% - 10.5px), calc(100% - 10.5px) 100%, 0px 100%, 0px 10.5px)",
+      1
+    ],
+    [
+      "polygon(7px 0px, 100% 0px, 100% calc(100% - 7px), calc(100% - 7px) 100%, 0px 100%, 0px 7px)",
+      1
+    ]
+  ],
+  "aspectRatios": [
+    [
+      "1 / 1",
+      2
+    ],
+    [
+      "71 / 98",
+      2
+    ],
+    [
+      "2 / 1",
+      1
+    ],
+    [
+      "190 / 107",
+      1
+    ],
+    [
+      "140 / 79",
+      1
+    ],
+    [
+      "210 / 118",
+      1
+    ],
+    [
+      "16 / 9",
+      1
+    ]
+  ],
+  "shadows": [
+    [
+      "none",
+      5
+    ],
+    [
+      "rgb(255, 255, 255) 0px 0px 0px 1.2px inset, rgb(140, 140, 140) 0px 0px 0px 2px, rgb(34, 34, 34) 0px 0px 0px 3.4px",
+      3
+    ],
+    [
+      "rgba(0, 0, 0, 0.5) 0px 4px 20px",
+      1
+    ],
+    [
+      "rgba(0, 0, 0, 0.15) 0px -2px 5px 0px",
+      1
+    ],
+    [
+      "var(--Paper-shadow)",
+      1
+    ],
+    [
+      "rgba(0, 0, 0, 0.15) 0px 4px 24px",
+      1
+    ],
+    [
+      "rgb(153, 153, 153) 0px 2px 10px -3px",
+      1
+    ],
+    [
+      "rgb(33, 150, 243) 0px 0px 1px",
+      1
+    ],
+    [
+      "rgb(199, 197, 199) 0px 0px 12px 2px",
+      1
+    ],
+    [
+      "rgb(199, 197, 199) -3px -3px 5px -2px",
+      1
+    ]
+  ],
+  "gradients": [
+    "linear-gradient(rgba(255, 255, 255, 0), rgb(255, 255, 255))",
+    "linear-gradient(270deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0))",
+    "linear-gradient(90deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0))",
+    "linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0))",
+    "linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0))"
+  ],
+  "headings": [
+    {
+      "tag": "h2",
+      "id": null,
+      "cls": "customDisplayL",
+      "role": null,
+      "text": "",
+      "rect": {
+        "x": 60,
+        "y": 1117,
+        "w": 0,
+        "h": 0
+      },
+      "font": {
+        "family": "manrope, manrope Fallback",
+        "size": "80px",
+        "weight": "600",
+        "lineHeight": "96px",
+        "letterSpacing": "-2.4px",
+        "transform": "none"
+      },
+      "color": "rgb(34, 34, 34)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "bgImage": "none",
+      "radius": "0px",
+      "border": "0px none rgb(34, 34, 34)",
+      "shadow": "none",
+      "opacity": "1",
+      "display": "block",
+      "position": "static",
+      "gap": "normal",
+      "gridCols": "none",
+      "padding": "0px",
+      "margin": "0px",
+      "maxWidth": "none",
+      "transition": "all",
+      "animation": "none",
+      "clipPath": "none",
+      "aspectRatio": "auto",
+      "objectFit": "fill",
+      "overflow": "hidden",
+      "filter": "none",
+      "backdrop": "none"
+    },
+    {
+      "tag": "h2",
+      "id": null,
+      "cls": "customDisplayL",
+      "role": null,
+      "text": "",
+      "rect": {
+        "x": 60,
+        "y": 2432,
+        "w": 0,
+        "h": 0
+      },
+      "font": {
+        "family": "manrope, manrope Fallback",
+        "size": "80px",
+        "weight": "600",
+        "lineHeight": "96px",
+        "letterSpacing": "-2.4px",
+        "transform": "none"
+      },
+      "color": "rgb(255, 255, 255)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "bgImage": "none",
+      "radius": "0px",
+      "border": "0px none rgb(255, 255, 255)",
+      "shadow": "none",
+      "opacity": "1",
+      "display": "block",
+      "position": "static",
+      "gap": "normal",
+      "gridCols": "none",
+      "padding": "0px",
+      "margin": "0px",
+      "maxWidth": "none",
+      "transition": "all",
+      "animation": "none",
+      "clipPath": "none",
+      "aspectRatio": "auto",
+      "objectFit": "fill",
+      "overflow": "hidden",
+      "filter": "none",
+      "backdrop": "none"
+    },
+    {
+      "tag": "h2",
+      "id": "heading-1",
+      "cls": null,
+      "role": null,
+      "text": "New Trailer Released!",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "w": 0,
+        "h": 0
+      },
+      "font": {
+        "family": "inter, inter Fallback",
+        "size": "24px",
+        "weight": "600",
+        "lineHeight": "28.8px",
+        "letterSpacing": "-2%",
+        "transform": "none"
+      },
+      "color": "rgb(255, 255, 255)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "bgImage": "none",
+      "radius": "0px",
+      "border": "0px none rgb(255, 255, 255)",
+      "shadow": "none",
+      "opacity": "1",
+      "display": "none",
+      "position": "relative",
+      "gap": "normal",
+      "gridCols": "none",
+      "padding": "0px 0px 0px 16px",
+      "margin": "24px 0px",
+      "maxWidth": "none",
+      "transition": "all",
+      "animation": "none",
+      "clipPath": "none",
+      "aspectRatio": "auto",
+      "objectFit": "fill",
+      "overflow": "visible",
+      "filter": "none",
+      "backdrop": "none"
+    },
+    {
+      "tag": "h1",
+      "id": "heading-2",
+      "cls": null,
+      "role": null,
+      "text": "Story",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "w": 0,
+        "h": 0
+      },
+      "font": {
+        "family": "manrope, manrope Fallback",
+        "size": "30px",
+        "weight": "700",
+        "lineHeight": "36px",
+        "letterSpacing": "-3%",
+        "transform": "none"
+      },
+      "color": "rgb(255, 255, 255)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "bgImage": "none",
+      "radius": "0px",
+      "border": "0px none rgb(255, 255, 255)",
+      "shadow": "none",
+      "opacity": "1",
+      "display": "none",
+      "position": "static",
+      "gap": "normal",
+      "gridCols": "none",
+      "padding": "0px 0px 20px",
+      "margin": "24px 0px",
+      "maxWidth": "none",
+      "transition": "all",
+      "animation": "none",
+      "clipPath": "none",
+      "aspectRatio": "auto",
+      "objectFit": "fill",
+      "overflow": "visible",
+      "filter": "none",
+      "backdrop": "none"
+    },
+    {
+      "tag": "h2",
+      "id": "heading-3",
+      "cls": null,
+      "role": null,
+      "text": "Characters",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "w": 0,
+        "h": 0
+      },
+      "font": {
+        "family": "inter, inter Fallback",
+        "size": "24px",
+        "weight": "600",
+        "lineHeight": "28.8px",
+        "letterSpacing": "-2%",
+        "transform": "none"
+      },
+      "color": "rgb(255, 255, 255)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "bgImage": "none",
+      "radius": "0px",
+      "border": "0px none rgb(255, 255, 255)",
+      "shadow": "none",
+      "opacity": "1",
+      "display": "none",
+      "position": "relative",
+      "gap": "normal",
+      "gridCols": "none",
+      "padding": "0px 0px 0px 16px",
+      "margin": "24px 0px",
+      "maxWidth": "none",
+      "transition": "all",
+      "animation": "none",
+      "clipPath": "none",
+      "aspectRatio": "auto",
+      "objectFit": "fill",
+      "overflow": "visible",
+      "filter": "none",
+      "backdrop": "none"
+    },
+    {
+      "tag": "h2",
+      "id": "heading-4",
+      "cls": null,
+      "role": null,
+      "text": "Mobile Suits",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "w": 0,
+        "h": 0
+      },
+      "font": {
+        "family": "inter, inter Fallback",
+        "size": "24px",
+        "weight": "600",
+        "lineHeight": "28.8px",
+        "letterSpacing": "-2%",
+        "transform": "none"
+      },
+      "color": "rgb(255, 255, 255)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "bgImage": "none",
+      "radius": "0px",
+      "border": "0px none rgb(255, 255, 255)",
+      "shadow": "none",
+      "opacity": "1",
+      "display": "none",
+      "position": "relative",
+      "gap": "normal",
+      "gridCols": "none",
+      "padding": "0px 0px 0px 16px",
+      "margin": "24px 0px",
+      "maxWidth": "none",
+      "transition": "all",
+      "animation": "none",
+      "clipPath": "none",
+      "aspectRatio": "auto",
+      "objectFit": "fill",
+      "overflow": "visible",
+      "filter": "none",
+      "backdrop": "none"
+    },
+    {
+      "tag": "h1",
+      "id": "heading-5",
+      "cls": null,
+      "role": null,
+      "text": "Japanese Voice Cast and Staff Comments",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "w": 0,
+        "h": 0
+      },
+      "font": {
+        "family": "manrope, manrope Fallback",
+        "size": "30px",
+        "weight": "700",
+        "lineHeight": "36px",
+        "letterSpacing": "-3%",
+        "transform": "none"
+      },
+      "color": "rgb(255, 255, 255)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "bgImage": "none",
+      "radius": "0px",
+      "border": "0px none rgb(255, 255, 255)",
+      "shadow": "none",
+      "opacity": "1",
+      "display": "none",
+      "position": "static",
+      "gap": "normal",
+      "gridCols": "none",
+      "padding": "0px 0px 20px",
+      "margin": "24px 0px",
+      "maxWidth": "none",
+      "transition": "all",
+      "animation": "none",
+      "clipPath": "none",
+      "aspectRatio": "auto",
+      "objectFit": "fill",
+      "overflow": "visible",
+      "filter": "none",
+      "backdrop": "none"
+    },
+    {
+      "tag": "h2",
+      "id": "heading-6",
+      "cls": null,
+      "role": null,
+      "text": "Kenichi Suzumura (Japanese Voice of Shinn Asuka):",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "w": 0,
+        "h": 0
+      },
+      "font": {
+        "family": "inter, inter Fallback",
+        "size": "24px",
+        "weight": "600",
+        "lineHeight": "28.8px",
+        "letterSpacing": "-2%",
+        "transform": "none"
+      },
+      "color": "rgb(255, 255, 255)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "bgImage": "none",
+      "radius": "0px",
+      "border": "0px none rgb(255, 255, 255)",
+      "shadow": "none",
+      "opacity": "1",
+      "display": "none",
+      "position": "relative",
+      "gap": "normal",
+      "gridCols": "none",
+      "padding": "0px 0px 0px 16px",
+      "margin": "24px 0px",
+      "maxWidth": "none",
+      "transition": "all",
+      "animation": "none",
+      "clipPath": "none",
+      "aspectRatio": "auto",
+      "objectFit": "fill",
+      "overflow": "visible",
+      "filter": "none",
+      "backdrop": "none"
+    },
+    {
+      "tag": "h2",
+      "id": "heading-7",
+      "cls": null,
+      "role": null,
+      "text": "Soichiro Hoshi (Japanese Voice of Kira Yamato):",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "w": 0,
+        "h": 0
+      },
+      "font": {
+        "family": "inter, inter Fallback",
+        "size": "24px",
+        "weight": "600",
+        "lineHeight": "28.8px",
+        "letterSpacing": "-2%",
+        "transform": "none"
+      },
+      "color": "rgb(255, 255, 255)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "bgImage": "none",
+      "radius": "0px",
+      "border": "0px none rgb(255, 255, 255)",
+      "shadow": "none",
+      "opacity": "1",
+      "display": "none",
+      "position": "relative",
+      "gap": "normal",
+      "gridCols": "none",
+      "padding": "0px 0px 0px 16px",
+      "margin": "24px 0px",
+      "maxWidth": "none",
+      "transition": "all",
+      "animation": "none",
+      "clipPath": "none",
+      "aspectRatio": "auto",
+      "objectFit": "fill",
+      "overflow": "visible",
+      "filter": "none",
+      "backdrop": "none"
+    },
+    {
+      "tag": "h2",
+      "id": "heading-8",
+      "cls": null,
+      "role": null,
+      "text": "Akira Ishida (Japanese Voice of Athrun Zala):",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "w": 0,
+        "h": 0
+      },
+      "font": {
+        "family": "inter, inter Fallback",
+        "size": "24px",
+        "weight": "600",
+        "lineHeight": "28.8px",
+        "letterSpacing": "-2%",
+        "transform": "none"
+      },
+      "color": "rgb(255, 255, 255)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "bgImage": "none",
+      "radius": "0px",
+      "border": "0px none rgb(255, 255, 255)",
+      "shadow": "none",
+      "opacity": "1",
+      "display": "none",
+      "position": "relative",
+      "gap": "normal",
+      "gridCols": "none",
+      "padding": "0px 0px 0px 16px",
+      "margin": "24px 0px",
+      "maxWidth": "none",
+      "transition": "all",
+      "animation": "none",
+      "clipPath": "none",
+      "aspectRatio": "auto",
+      "objectFit": "fill",
+      "overflow": "visible",
+      "filter": "none",
+      "backdrop": "none"
+    },
+    {
+      "tag": "h2",
+      "id": "heading-9",
+      "cls": null,
+      "role": null,
+      "text": "Daisuke Ono (Japanese Voice of Leonard Valway):",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "w": 0,
+        "h": 0
+      },
+      "font": {
+        "family": "inter, inter Fallback",
+        "size": "24px",
+        "weight": "600",
+        "lineHeight": "28.8px",
+        "letterSpacing": "-2%",
+        "transform": "none"
+      },
+      "color": "rgb(255, 255, 255)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "bgImage": "none",
+      "radius": "0px",
+      "border": "0px none rgb(255, 255, 255)",
+      "shadow": "none",
+      "opacity": "1",
+      "display": "none",
+      "position": "relative",
+      "gap": "normal",
+      "gridCols": "none",
+      "padding": "0px 0px 0px 16px",
+      "margin": "24px 0px",
+      "maxWidth": "none",
+      "transition": "all",
+      "animation": "none",
+      "clipPath": "none",
+      "aspectRatio": "auto",
+      "objectFit": "fill",
+      "overflow": "visible",
+      "filter": "none",
+      "backdrop": "none"
+    },
+    {
+      "tag": "h2",
+      "id": "heading-10",
+      "cls": null,
+      "role": null,
+      "text": "Director Mitsuo Fukuda:",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "w": 0,
+        "h": 0
+      },
+      "font": {
+        "family": "inter, inter Fallback",
+        "size": "24px",
+        "weight": "600",
+        "lineHeight": "28.8px",
+        "letterSpacing": "-2%",
+        "transform": "none"
+      },
+      "color": "rgb(255, 255, 255)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "bgImage": "none",
+      "radius": "0px",
+      "border": "0px none rgb(255, 255, 255)",
+      "shadow": "none",
+      "opacity": "1",
+      "display": "none",
+      "position": "relative",
+      "gap": "normal",
+      "gridCols": "none",
+      "padding": "0px 0px 0px 16px",
+      "margin": "24px 0px",
+      "maxWidth": "none",
+      "transition": "all",
+      "animation": "none",
+      "clipPath": "none",
+      "aspectRatio": "auto",
+      "objectFit": "fill",
+      "overflow": "visible",
+      "filter": "none",
+      "backdrop": "none"
+    }
+  ],
+  "header": {
+    "outer": [
+      {
+        "tag": "header",
+        "id": null,
+        "cls": "MuiPaper-root MuiPaper-elevation MuiPaper-elevation0 MuiAppBar-root MuiAppBar-colorTransparent MuiAppBar-positionFixed m",
+        "role": null,
+        "text": "LATEST NEWS Free to Join! \"Gunpla Assembly Experience Event\" at THE GUNDAM BASE ",
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "w": 1440,
+          "h": 92
+        },
+        "font": {
+          "family": "inter, inter Fallback",
+          "size": "16px",
+          "weight": "400",
+          "lineHeight": "18.4px",
+          "letterSpacing": "normal",
+          "transform": "none"
+        },
+        "color": "rgb(34, 34, 34)",
+        "bg": "rgba(0, 0, 0, 0)",
+        "bgImage": "none",
+        "radius": "0px",
+        "border": "0px none rgb(34, 34, 34)",
+        "shadow": "none",
+        "opacity": "1",
+        "display": "flex",
+        "position": "fixed",
+        "gap": "normal",
+        "gridCols": "none",
+        "padding": "0px",
+        "margin": "0px",
+        "maxWidth": "none",
+        "transition": "box-shadow 0.3s cubic-bezier(0.4, 0, 0.2, 1)",
+        "animation": "none",
+        "clipPath": "none",
+        "aspectRatio": "auto",
+        "objectFit": "fill",
+        "overflow": "visible",
+        "filter": "none",
+        "backdrop": "none"
+      }
+    ],
+    "navItems": [
+      {
+        "tag": "a",
+        "id": null,
+        "cls": null,
+        "role": null,
+        "text": "LATEST NEWS Free to Join! \"Gunpla Assembly Experience Event\" at THE GUNDAM BASE ",
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "w": 1440,
+          "h": 34
+        },
+        "font": {
+          "family": "inter, inter Fallback",
+          "size": "16px",
+          "weight": "400",
+          "lineHeight": "18.4px",
+          "letterSpacing": "normal",
+          "transform": "none"
+        },
+        "color": "rgb(34, 34, 34)",
+        "bg": "rgba(0, 0, 0, 0)",
+        "bgImage": "none",
+        "radius": "0px",
+        "border": "0px none rgb(34, 34, 34)",
+        "shadow": "none",
+        "opacity": "1",
+        "display": "block",
+        "position": "static",
+        "gap": "normal",
+        "gridCols": "none",
+        "padding": "0px",
+        "margin": "0px",
+        "maxWidth": "none",
+        "transition": "all",
+        "animation": "none",
+        "clipPath": "none",
+        "aspectRatio": "auto",
+        "objectFit": "fill",
+        "overflow": "visible",
+        "filter": "none",
+        "backdrop": "none"
+      },
+      {
+        "tag": "button",
+        "id": null,
+        "cls": "MuiButtonBase-root MuiIconButton-root MuiIconButton-sizeMedium Header_headerIcon__Z5gfS Header_menuTopIcon___svbd Header",
+        "role": null,
+        "text": "",
+        "rect": {
+          "x": 0,
+          "y": 34,
+          "w": 86,
+          "h": 57
+        },
+        "font": {
+          "family": "inter, inter Fallback",
+          "size": "24px",
+          "weight": "700",
+          "lineHeight": "27.6px",
+          "letterSpacing": "normal",
+          "transform": "none"
+        },
+        "color": "rgba(0, 0, 0, 0.54)",
+        "bg": "rgba(0, 0, 0, 0)",
+        "bgImage": "none",
+        "radius": "0px",
+        "border": "0px none rgba(0, 0, 0, 0.54)",
+        "shadow": "none",
+        "opacity": "1",
+        "display": "flex",
+        "position": "relative",
+        "gap": "normal",
+        "gridCols": "none",
+        "padding": "0px 30px",
+        "margin": "0px",
+        "maxWidth": "none",
+        "transition": "background-color 0.15s cubic-bezier(0.4, 0, 0.2, 1)",
+        "animation": "none",
+        "clipPath": "none",
+        "aspectRatio": "auto",
+        "objectFit": "fill",
+        "overflow": "visible",
+        "filter": "none",
+        "backdrop": "none"
+      },
+      {
+        "tag": "a",
+        "id": null,
+        "cls": null,
+        "role": null,
+        "text": "SERIES",
+        "rect": {
+          "x": 117,
+          "y": 55,
+          "w": 55,
+          "h": 16
+        },
+        "font": {
+          "family": "jetBrainsMonoGreek, jetBrainsMonoGreek Fallback, jetBrainsMo",
+          "size": "16px",
+          "weight": "400",
+          "lineHeight": "16px",
+          "letterSpacing": "-0.48px",
+          "transform": "none"
+        },
+        "color": "rgb(255, 255, 255)",
+        "bg": "rgba(0, 0, 0, 0)",
+        "bgImage": "none",
+        "radius": "0px",
+        "border": "0px none rgb(255, 255, 255)",
+        "shadow": "none",
+        "opacity": "1",
+        "display": "block",
+        "position": "static",
+        "gap": "normal",
+        "gridCols": "none",
+        "padding": "0px",
+        "margin": "0px",
+        "maxWidth": "none",
+        "transition": "all",
+        "animation": "none",
+        "clipPath": "none",
+        "aspectRatio": "auto",
+        "objectFit": "fill",
+        "overflow": "visible",
+        "filter": "none",
+        "backdrop": "none"
+      },
+      {
+        "tag": "a",
+        "id": null,
+        "cls": null,
+        "role": null,
+        "text": "NEWS",
+        "rect": {
+          "x": 203,
+          "y": 55,
+          "w": 36,
+          "h": 16
+        },
+        "font": {
+          "family": "jetBrainsMonoGreek, jetBrainsMonoGreek Fallback, jetBrainsMo",
+          "size": "16px",
+          "weight": "400",
+          "lineHeight": "16px",
+          "letterSpacing": "-0.48px",
+          "transform": "none"
+        },
+        "color": "rgb(255, 255, 255)",
+        "bg": "rgba(0, 0, 0, 0)",
+        "bgImage": "none",
+        "radius": "0px",
+        "border": "0px none rgb(255, 255, 255)",
+        "shadow": "none",
+        "opacity": "1",
+        "display": "block",
+        "position": "static",
+        "gap": "normal",
+        "gridCols": "none",
+        "padding": "0px",
+        "margin": "0px",
+        "maxWidth": "none",
+        "transition": "all",
+        "animation": "none",
+        "clipPath": "none",
+        "aspectRatio": "auto",
+        "objectFit": "fill",
+        "overflow": "visible",
+        "filter": "none",
+        "backdrop": "none"
+      },
+      {
+        "tag": "a",
+        "id": null,
+        "cls": null,
+        "role": null,
+        "text": "PRODUCTS",
+        "rect": {
+          "x": 270,
+          "y": 55,
+          "w": 73,
+          "h": 16
+        },
+        "font": {
+          "family": "jetBrainsMonoGreek, jetBrainsMonoGreek Fallback, jetBrainsMo",
+          "size": "16px",
+          "weight": "400",
+          "lineHeight": "16px",
+          "letterSpacing": "-0.48px",
+          "transform": "none"
+        },
+        "color": "rgb(255, 255, 255)",
+        "bg": "rgba(0, 0, 0, 0)",
+        "bgImage": "none",
+        "radius": "0px",
+        "border": "0px none rgb(255, 255, 255)",
+        "shadow": "none",
+        "opacity": "1",
+        "display": "block",
+        "position": "static",
+        "gap": "normal",
+        "gridCols": "none",
+        "padding": "0px",
+        "margin": "0px",
+        "maxWidth": "none",
+        "transition": "all",
+        "animation": "none",
+        "clipPath": "none",
+        "aspectRatio": "auto",
+        "objectFit": "fill",
+        "overflow": "visible",
+        "filter": "none",
+        "backdrop": "none"
+      },
+      {
+        "tag": "a",
+        "id": null,
+        "cls": "Header_logo__V9h3K",
+        "role": null,
+        "text": "",
+        "rect": {
+          "x": 628,
+          "y": 51,
+          "w": 184,
+          "h": 23
+        },
+        "font": {
+          "family": "inter, inter Fallback",
+          "size": "16px",
+          "weight": "400",
+          "lineHeight": "18.4px",
+          "letterSpacing": "normal",
+          "transform": "none"
+        },
+        "color": "rgb(255, 255, 255)",
+        "bg": "rgba(0, 0, 0, 0)",
+        "bgImage": "none",
+        "radius": "0px",
+        "border": "0px none rgb(255, 255, 255)",
+        "shadow": "none",
+        "opacity": "1",
+        "display": "block",
+        "position": "absolute",
+        "gap": "normal",
+        "gridCols": "none",
+        "padding": "0px",
+        "margin": "0px",
+        "maxWidth": "none",
+        "transition": "all",
+        "animation": "none",
+        "clipPath": "none",
+        "aspectRatio": "auto",
+        "objectFit": "fill",
+        "overflow": "visible",
+        "filter": "none",
+        "backdrop": "none"
+      },
+      {
+        "tag": "button",
+        "id": null,
+        "cls": "MuiButtonBase-root MuiIconButton-root MuiIconButton-sizeMedium css-zniur5",
+        "role": null,
+        "text": "",
+        "rect": {
+          "x": 1095,
+          "y": 55,
+          "w": 7,
+          "h": 16
+        },
+        "font": {
+          "family": "inter, inter Fallback",
+          "size": "7px",
+          "weight": "700",
+          "lineHeight": "8.05px",
+          "letterSpacing": "normal",
+          "transform": "none"
+        },
+        "color": "rgb(255, 255, 255)",
+        "bg": "rgba(0, 0, 0, 0)",
+        "bgImage": "none",
+        "radius": "50%",
+        "border": "0px none rgb(255, 255, 255)",
+        "shadow": "none",
+        "opacity": "1",
+        "display": "flex",
+        "position": "relative",
+        "gap": "normal",
+        "gridCols": "none",
+        "padding": "0px",
+        "margin": "0px",
+        "maxWidth": "none",
+        "transition": "background-color 0.15s cubic-bezier(0.4, 0, 0.2, 1)",
+        "animation": "none",
+        "clipPath": "none",
+        "aspectRatio": "auto",
+        "objectFit": "fill",
+        "overflow": "visible",
+        "filter": "none",
+        "backdrop": "none"
+      },
+      {
+        "tag": "button",
+        "id": null,
+        "cls": "MuiButtonBase-root MuiIconButton-root MuiIconButton-sizeMedium css-zniur5",
+        "role": null,
+        "text": "",
+        "rect": {
+          "x": 1339,
+          "y": 55,
+          "w": 7,
+          "h": 16
+        },
+        "font": {
+          "family": "inter, inter Fallback",
+          "size": "7px",
+          "weight": "700",
+          "lineHeight": "8.05px",
+          "letterSpacing": "normal",
+          "transform": "none"
+        },
+        "color": "rgb(255, 255, 255)",
+        "bg": "rgba(0, 0, 0, 0)",
+        "bgImage": "none",
+        "radius": "50%",
+        "border": "0px none rgb(255, 255, 255)",
+        "shadow": "none",
+        "opacity": "1",
+        "display": "flex",
+        "position": "relative",
+        "gap": "normal",
+        "gridCols": "none",
+        "padding": "0px",
+        "margin": "0px",
+        "maxWidth": "none",
+        "transition": "background-color 0.15s cubic-bezier(0.4, 0, 0.2, 1)",
+        "animation": "none",
+        "clipPath": "none",
+        "aspectRatio": "auto",
+        "objectFit": "fill",
+        "overflow": "visible",
+        "filter": "none",
+        "backdrop": "none"
+      },
+      {
+        "tag": "button",
+        "id": null,
+        "cls": "MuiButtonBase-root MuiIconButton-root MuiIconButton-sizeMedium Header_headerIcon__Z5gfS Header_textWhite__0ZO3G Header_a",
+        "role": null,
+        "text": "",
+        "rect": {
+          "x": 1366,
+          "y": 34,
+          "w": 74,
+          "h": 57
+        },
+        "font": {
+          "family": "inter, inter Fallback",
+          "size": "24px",
+          "weight": "700",
+          "lineHeight": "27.6px",
+          "letterSpacing": "normal",
+          "transform": "none"
+        },
+        "color": "rgb(255, 255, 255)",
+        "bg": "rgba(0, 0, 0, 0)",
+        "bgImage": "none",
+        "radius": "0px",
+        "border": "0px none rgb(255, 255, 255)",
+        "shadow": "none",
+        "opacity": "1",
+        "display": "flex",
+        "position": "relative",
+        "gap": "normal",
+        "gridCols": "none",
+        "padding": "0px 30px",
+        "margin": "0px",
+        "maxWidth": "none",
+        "transition": "background-color 0.15s cubic-bezier(0.4, 0, 0.2, 1)",
+        "animation": "none",
+        "clipPath": "none",
+        "aspectRatio": "auto",
+        "objectFit": "fill",
+        "overflow": "visible",
+        "filter": "none",
+        "backdrop": "none"
+      }
+    ]
+  },
+  "sections": [
+    {
+      "tag": "div",
+      "cls": "Top_topContainer__NXN_Y",
+      "text": "Mobile Suit Gundam SEED FREEDOM ZERO Coming to theaters in N",
+      "rect": {
+        "y": 33,
+        "h": 5468,
+        "w": 1440
+      }
+    }
+  ],
+  "cards": [
+    {
+      "tag": "a",
+      "id": null,
+      "cls": "Series_topSeriesItemContainer__vHWXl",
+      "role": null,
+      "text": "Mobile Suit Gundam RG XARX-ZERO 2027 Alternative Timeline Series",
+      "rect": {
+        "x": 0,
+        "y": 1178,
+        "w": 320,
+        "h": 753
+      },
+      "font": {
+        "family": "inter, inter Fallback",
+        "size": "16px",
+        "weight": "400",
+        "lineHeight": "18.4px",
+        "letterSpacing": "normal",
+        "transform": "none"
+      },
+      "color": "rgb(34, 34, 34)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "bgImage": "none",
+      "radius": "0px",
+      "border": "0px none rgb(34, 34, 34)",
+      "shadow": "none",
+      "opacity": "1",
+      "display": "flex",
+      "position": "relative",
+      "gap": "25px",
+      "gridCols": "none",
+      "padding": "55px 55px 70px",
+      "margin": "0px",
+      "maxWidth": "none",
+      "transition": "all",
+      "animation": "none",
+      "clipPath": "none",
+      "aspectRatio": "auto",
+      "objectFit": "fill",
+      "overflow": "hidden",
+      "filter": "none",
+      "backdrop": "none"
+    },
+    {
+      "tag": "a",
+      "id": null,
+      "cls": "Series_topSeriesItemContainer__vHWXl",
+      "role": null,
+      "text": "MOBILE SUIT GUNDAM HATHAWAY The Sorcery of Nymph Circe 2026 Universal Century Ti",
+      "rect": {
+        "x": 320,
+        "y": 1178,
+        "w": 320,
+        "h": 753
+      },
+      "font": {
+        "family": "inter, inter Fallback",
+        "size": "16px",
+        "weight": "400",
+        "lineHeight": "18.4px",
+        "letterSpacing": "normal",
+        "transform": "none"
+      },
+      "color": "rgb(34, 34, 34)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "bgImage": "none",
+      "radius": "0px",
+      "border": "0px none rgb(34, 34, 34)",
+      "shadow": "none",
+      "opacity": "1",
+      "display": "flex",
+      "position": "relative",
+      "gap": "25px",
+      "gridCols": "none",
+      "padding": "55px 55px 70px",
+      "margin": "0px",
+      "maxWidth": "none",
+      "transition": "all",
+      "animation": "none",
+      "clipPath": "none",
+      "aspectRatio": "auto",
+      "objectFit": "fill",
+      "overflow": "hidden",
+      "filter": "none",
+      "backdrop": "none"
+    },
+    {
+      "tag": "a",
+      "id": null,
+      "cls": "Series_topSeriesItemContainer__vHWXl",
+      "role": null,
+      "text": "Special Edition: Mobile Suit Gundam Iron-Blooded Orphans Urdr-Hunt \"-Path of the",
+      "rect": {
+        "x": 640,
+        "y": 1178,
+        "w": 320,
+        "h": 753
+      },
+      "font": {
+        "family": "inter, inter Fallback",
+        "size": "16px",
+        "weight": "400",
+        "lineHeight": "18.4px",
+        "letterSpacing": "normal",
+        "transform": "none"
+      },
+      "color": "rgb(34, 34, 34)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "bgImage": "none",
+      "radius": "0px",
+      "border": "0px none rgb(34, 34, 34)",
+      "shadow": "none",
+      "opacity": "1",
+      "display": "flex",
+      "position": "relative",
+      "gap": "25px",
+      "gridCols": "none",
+      "padding": "55px 55px 70px",
+      "margin": "0px",
+      "maxWidth": "none",
+      "transition": "all",
+      "animation": "none",
+      "clipPath": "none",
+      "aspectRatio": "auto",
+      "objectFit": "fill",
+      "overflow": "hidden",
+      "filter": "none",
+      "backdrop": "none"
+    },
+    {
+      "tag": "a",
+      "id": null,
+      "cls": "Series_topSeriesItemContainer__vHWXl",
+      "role": null,
+      "text": "Mobile Suit Gundam GQuuuuuuX 2025 Universal Century Timeline Series",
+      "rect": {
+        "x": 960,
+        "y": 1178,
+        "w": 320,
+        "h": 753
+      },
+      "font": {
+        "family": "inter, inter Fallback",
+        "size": "16px",
+        "weight": "400",
+        "lineHeight": "18.4px",
+        "letterSpacing": "normal",
+        "transform": "none"
+      },
+      "color": "rgb(34, 34, 34)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "bgImage": "none",
+      "radius": "0px",
+      "border": "0px none rgb(34, 34, 34)",
+      "shadow": "none",
+      "opacity": "1",
+      "display": "flex",
+      "position": "relative",
+      "gap": "25px",
+      "gridCols": "none",
+      "padding": "55px 55px 70px",
+      "margin": "0px",
+      "maxWidth": "none",
+      "transition": "all",
+      "animation": "none",
+      "clipPath": "none",
+      "aspectRatio": "auto",
+      "objectFit": "fill",
+      "overflow": "hidden",
+      "filter": "none",
+      "backdrop": "none"
+    },
+    {
+      "tag": "a",
+      "id": null,
+      "cls": "Series_topSeriesItemContainer__vHWXl",
+      "role": null,
+      "text": "Mobile Suit Gundam GQuuuuuuX -Beginning- 2025 Universal Century Timeline Series",
+      "rect": {
+        "x": 1280,
+        "y": 1178,
+        "w": 320,
+        "h": 753
+      },
+      "font": {
+        "family": "inter, inter Fallback",
+        "size": "16px",
+        "weight": "400",
+        "lineHeight": "18.4px",
+        "letterSpacing": "normal",
+        "transform": "none"
+      },
+      "color": "rgb(34, 34, 34)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "bgImage": "none",
+      "radius": "0px",
+      "border": "0px none rgb(34, 34, 34)",
+      "shadow": "none",
+      "opacity": "1",
+      "display": "flex",
+      "position": "relative",
+      "gap": "25px",
+      "gridCols": "none",
+      "padding": "55px 55px 70px",
+      "margin": "0px",
+      "maxWidth": "none",
+      "transition": "all",
+      "animation": "none",
+      "clipPath": "none",
+      "aspectRatio": "auto",
+      "objectFit": "fill",
+      "overflow": "hidden",
+      "filter": "none",
+      "backdrop": "none"
+    },
+    {
+      "tag": "a",
+      "id": null,
+      "cls": "Series_topSeriesItemContainer__vHWXl",
+      "role": null,
+      "text": "Mobile Suit Gundam: Requiem for Vengeance 2024 Universal Century Timeline Series",
+      "rect": {
+        "x": 1600,
+        "y": 1178,
+        "w": 320,
+        "h": 753
+      },
+      "font": {
+        "family": "inter, inter Fallback",
+        "size": "16px",
+        "weight": "400",
+        "lineHeight": "18.4px",
+        "letterSpacing": "normal",
+        "transform": "none"
+      },
+      "color": "rgb(34, 34, 34)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "bgImage": "none",
+      "radius": "0px",
+      "border": "0px none rgb(34, 34, 34)",
+      "shadow": "none",
+      "opacity": "1",
+      "display": "flex",
+      "position": "relative",
+      "gap": "25px",
+      "gridCols": "none",
+      "padding": "55px 55px 70px",
+      "margin": "0px",
+      "maxWidth": "none",
+      "transition": "all",
+      "animation": "none",
+      "clipPath": "none",
+      "aspectRatio": "auto",
+      "objectFit": "fill",
+      "overflow": "hidden",
+      "filter": "none",
+      "backdrop": "none"
+    },
+    {
+      "tag": "a",
+      "id": null,
+      "cls": "Series_topSeriesItemContainer__vHWXl",
+      "role": null,
+      "text": "MOBILE SUIT GUNDAM THE ORIGIN Chapter 3: Chronicle of the Loum Battlefield 2024 ",
+      "rect": {
+        "x": 1920,
+        "y": 1178,
+        "w": 320,
+        "h": 753
+      },
+      "font": {
+        "family": "inter, inter Fallback",
+        "size": "16px",
+        "weight": "400",
+        "lineHeight": "18.4px",
+        "letterSpacing": "normal",
+        "transform": "none"
+      },
+      "color": "rgb(34, 34, 34)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "bgImage": "none",
+      "radius": "0px",
+      "border": "0px none rgb(34, 34, 34)",
+      "shadow": "none",
+      "opacity": "1",
+      "display": "flex",
+      "position": "relative",
+      "gap": "25px",
+      "gridCols": "none",
+      "padding": "55px 55px 70px",
+      "margin": "0px",
+      "maxWidth": "none",
+      "transition": "all",
+      "animation": "none",
+      "clipPath": "none",
+      "aspectRatio": "auto",
+      "objectFit": "fill",
+      "overflow": "hidden",
+      "filter": "none",
+      "backdrop": "none"
+    },
+    {
+      "tag": "a",
+      "id": null,
+      "cls": "Series_topSeriesItemContainer__vHWXl",
+      "role": null,
+      "text": "MOBILE SUIT GUNDAM THE ORIGIN Chapter II: The Outbreak of War 2024 Universal Cen",
+      "rect": {
+        "x": 2240,
+        "y": 1178,
+        "w": 320,
+        "h": 753
+      },
+      "font": {
+        "family": "inter, inter Fallback",
+        "size": "16px",
+        "weight": "400",
+        "lineHeight": "18.4px",
+        "letterSpacing": "normal",
+        "transform": "none"
+      },
+      "color": "rgb(34, 34, 34)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "bgImage": "none",
+      "radius": "0px",
+      "border": "0px none rgb(34, 34, 34)",
+      "shadow": "none",
+      "opacity": "1",
+      "display": "flex",
+      "position": "relative",
+      "gap": "25px",
+      "gridCols": "none",
+      "padding": "55px 55px 70px",
+      "margin": "0px",
+      "maxWidth": "none",
+      "transition": "all",
+      "animation": "none",
+      "clipPath": "none",
+      "aspectRatio": "auto",
+      "objectFit": "fill",
+      "overflow": "hidden",
+      "filter": "none",
+      "backdrop": "none"
+    }
+  ],
+  "paragraphs": [
+    {
+      "tag": "p",
+      "id": null,
+      "cls": null,
+      "role": null,
+      "text": "Bandai Namco Filmworks Inc. today announced that MOBILE SUIT GUNDAM SEED FREEDOM",
+      "rect": {
+        "x": 877,
+        "y": 2741,
+        "w": 407,
+        "h": 139
+      },
+      "font": {
+        "family": "inter, inter Fallback",
+        "size": "14px",
+        "weight": "500",
+        "lineHeight": "20.3px",
+        "letterSpacing": "-2%",
+        "transform": "none"
+      },
+      "color": "rgb(255, 255, 255)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "bgImage": "none",
+      "radius": "0px",
+      "border": "0px none rgb(255, 255, 255)",
+      "shadow": "none",
+      "opacity": "1",
+      "display": "inline",
+      "position": "static",
+      "gap": "normal",
+      "gridCols": "none",
+      "padding": "0px",
+      "margin": "0px",
+      "maxWidth": "none",
+      "transition": "all",
+      "animation": "none",
+      "clipPath": "none",
+      "aspectRatio": "auto",
+      "objectFit": "fill",
+      "overflow": "visible",
+      "filter": "none",
+      "backdrop": "none"
+    },
+    {
+      "tag": "p",
+      "id": null,
+      "cls": null,
+      "role": null,
+      "text": "The North American theatrical release window and English voice cast were announc",
+      "rect": {
+        "x": 871,
+        "y": 2883,
+        "w": 419,
+        "h": 98
+      },
+      "font": {
+        "family": "inter, inter Fallback",
+        "size": "14px",
+        "weight": "500",
+        "lineHeight": "20.3px",
+        "letterSpacing": "-2%",
+        "transform": "none"
+      },
+      "color": "rgb(255, 255, 255)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "bgImage": "none",
+      "radius": "0px",
+      "border": "0px none rgb(255, 255, 255)",
+      "shadow": "none",
+      "opacity": "1",
+      "display": "inline",
+      "position": "static",
+      "gap": "normal",
+      "gridCols": "none",
+      "padding": "0px",
+      "margin": "0px",
+      "maxWidth": "none",
+      "transition": "all",
+      "animation": "none",
+      "clipPath": "none",
+      "aspectRatio": "auto",
+      "objectFit": "fill",
+      "overflow": "visible",
+      "filter": "none",
+      "backdrop": "none"
+    },
+    {
+      "tag": "p",
+      "id": null,
+      "cls": null,
+      "role": null,
+      "text": "The film is a prequel to MOBILE SUIT GUNDAM SEED FREEDOM, which earned more than",
+      "rect": {
+        "x": 874,
+        "y": 2985,
+        "w": 413,
+        "h": 159
+      },
+      "font": {
+        "family": "inter, inter Fallback",
+        "size": "14px",
+        "weight": "500",
+        "lineHeight": "20.3px",
+        "letterSpacing": "-2%",
+        "transform": "none"
+      },
+      "color": "rgb(255, 255, 255)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "bgImage": "none",
+      "radius": "0px",
+      "border": "0px none rgb(255, 255, 255)",
+      "shadow": "none",
+      "opacity": "1",
+      "display": "inline",
+      "position": "static",
+      "gap": "normal",
+      "gridCols": "none",
+      "padding": "0px",
+      "margin": "0px",
+      "maxWidth": "none",
+      "transition": "all",
+      "animation": "none",
+      "clipPath": "none",
+      "aspectRatio": "auto",
+      "objectFit": "fill",
+      "overflow": "visible",
+      "filter": "none",
+      "backdrop": "none"
+    },
+    {
+      "tag": "p",
+      "id": null,
+      "cls": null,
+      "role": null,
+      "text": "After the collapse of the Destiny Plan proposed by Dullindal, which would have d",
+      "rect": {
+        "x": 877,
+        "y": 3168,
+        "w": 408,
+        "h": 119
+      },
+      "font": {
+        "family": "inter, inter Fallback",
+        "size": "14px",
+        "weight": "500",
+        "lineHeight": "20.3px",
+        "letterSpacing": "-2%",
+        "transform": "none"
+      },
+      "color": "rgb(255, 255, 255)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "bgImage": "none",
+      "radius": "0px",
+      "border": "0px none rgb(255, 255, 255)",
+      "shadow": "none",
+      "opacity": "1",
+      "display": "inline",
+      "position": "static",
+      "gap": "normal",
+      "gridCols": "none",
+      "padding": "0px",
+      "margin": "0px",
+      "maxWidth": "none",
+      "transition": "all",
+      "animation": "none",
+      "clipPath": "none",
+      "aspectRatio": "auto",
+      "objectFit": "fill",
+      "overflow": "visible",
+      "filter": "none",
+      "backdrop": "none"
+    }
+  ],
+  "buttons": [
+    {
+      "tag": "button",
+      "id": null,
+      "cls": "MuiButtonBase-root MuiIconButton-root MuiIconButton-sizeMedium Header_headerIcon__Z5gfS Header_menuTopIcon___svbd Header",
+      "role": null,
+      "text": "",
+      "rect": {
+        "x": 0,
+        "y": 34,
+        "w": 86,
+        "h": 57
+      },
+      "font": {
+        "family": "inter, inter Fallback",
+        "size": "24px",
+        "weight": "700",
+        "lineHeight": "27.6px",
+        "letterSpacing": "normal",
+        "transform": "none"
+      },
+      "color": "rgba(0, 0, 0, 0.54)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "bgImage": "none",
+      "radius": "0px",
+      "border": "0px none rgba(0, 0, 0, 0.54)",
+      "shadow": "none",
+      "opacity": "1",
+      "display": "flex",
+      "position": "relative",
+      "gap": "normal",
+      "gridCols": "none",
+      "padding": "0px 30px",
+      "margin": "0px",
+      "maxWidth": "none",
+      "transition": "background-color 0.15s cubic-bezier(0.4, 0, 0.2, 1)",
+      "animation": "none",
+      "clipPath": "none",
+      "aspectRatio": "auto",
+      "objectFit": "fill",
+      "overflow": "visible",
+      "filter": "none",
+      "backdrop": "none"
+    },
+    {
+      "tag": "button",
+      "id": null,
+      "cls": "MuiButtonBase-root MuiIconButton-root MuiIconButton-sizeMedium css-zniur5",
+      "role": null,
+      "text": "",
+      "rect": {
+        "x": 1095,
+        "y": 55,
+        "w": 7,
+        "h": 16
+      },
+      "font": {
+        "family": "inter, inter Fallback",
+        "size": "7px",
+        "weight": "700",
+        "lineHeight": "8.05px",
+        "letterSpacing": "normal",
+        "transform": "none"
+      },
+      "color": "rgb(255, 255, 255)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "bgImage": "none",
+      "radius": "50%",
+      "border": "0px none rgb(255, 255, 255)",
+      "shadow": "none",
+      "opacity": "1",
+      "display": "flex",
+      "position": "relative",
+      "gap": "normal",
+      "gridCols": "none",
+      "padding": "0px",
+      "margin": "0px",
+      "maxWidth": "none",
+      "transition": "background-color 0.15s cubic-bezier(0.4, 0, 0.2, 1)",
+      "animation": "none",
+      "clipPath": "none",
+      "aspectRatio": "auto",
+      "objectFit": "fill",
+      "overflow": "visible",
+      "filter": "none",
+      "backdrop": "none"
+    },
+    {
+      "tag": "button",
+      "id": null,
+      "cls": "MuiButtonBase-root MuiIconButton-root MuiIconButton-sizeMedium css-zniur5",
+      "role": null,
+      "text": "",
+      "rect": {
+        "x": 1339,
+        "y": 55,
+        "w": 7,
+        "h": 16
+      },
+      "font": {
+        "family": "inter, inter Fallback",
+        "size": "7px",
+        "weight": "700",
+        "lineHeight": "8.05px",
+        "letterSpacing": "normal",
+        "transform": "none"
+      },
+      "color": "rgb(255, 255, 255)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "bgImage": "none",
+      "radius": "50%",
+      "border": "0px none rgb(255, 255, 255)",
+      "shadow": "none",
+      "opacity": "1",
+      "display": "flex",
+      "position": "relative",
+      "gap": "normal",
+      "gridCols": "none",
+      "padding": "0px",
+      "margin": "0px",
+      "maxWidth": "none",
+      "transition": "background-color 0.15s cubic-bezier(0.4, 0, 0.2, 1)",
+      "animation": "none",
+      "clipPath": "none",
+      "aspectRatio": "auto",
+      "objectFit": "fill",
+      "overflow": "visible",
+      "filter": "none",
+      "backdrop": "none"
+    },
+    {
+      "tag": "button",
+      "id": null,
+      "cls": "MuiButtonBase-root MuiIconButton-root MuiIconButton-sizeMedium Header_headerIcon__Z5gfS Header_textWhite__0ZO3G Header_a",
+      "role": null,
+      "text": "",
+      "rect": {
+        "x": 1366,
+        "y": 34,
+        "w": 74,
+        "h": 57
+      },
+      "font": {
+        "family": "inter, inter Fallback",
+        "size": "24px",
+        "weight": "700",
+        "lineHeight": "27.6px",
+        "letterSpacing": "normal",
+        "transform": "none"
+      },
+      "color": "rgb(255, 255, 255)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "bgImage": "none",
+      "radius": "0px",
+      "border": "0px none rgb(255, 255, 255)",
+      "shadow": "none",
+      "opacity": "1",
+      "display": "flex",
+      "position": "relative",
+      "gap": "normal",
+      "gridCols": "none",
+      "padding": "0px 30px",
+      "margin": "0px",
+      "maxWidth": "none",
+      "transition": "background-color 0.15s cubic-bezier(0.4, 0, 0.2, 1)",
+      "animation": "none",
+      "clipPath": "none",
+      "aspectRatio": "auto",
+      "objectFit": "fill",
+      "overflow": "visible",
+      "filter": "none",
+      "backdrop": "none"
+    },
+    {
+      "tag": "button",
+      "id": "ot-sdk-btn",
+      "cls": "ot-sdk-show-settings position",
+      "role": null,
+      "text": "",
+      "rect": {
+        "x": 1140,
+        "y": 370,
+        "w": 240,
+        "h": 0
+      },
+      "font": {
+        "family": "jetBrainsMonoGreek, jetBrainsMonoGreek Fallback, jetBrainsMo",
+        "size": "16px",
+        "weight": "700",
+        "lineHeight": "19.2px",
+        "letterSpacing": "normal",
+        "transform": "none"
+      },
+      "color": "rgba(0, 0, 0, 0)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "bgImage": "none",
+      "radius": "0px",
+      "border": "0px none rgba(0, 0, 0, 0)",
+      "shadow": "none",
+      "opacity": "1",
+      "display": "block",
+      "position": "absolute",
+      "gap": "normal",
+      "gridCols": "none",
+      "padding": "0px",
+      "margin": "0px",
+      "maxWidth": "none",
+      "transition": "0.1s",
+      "animation": "none",
+      "clipPath": "none",
+      "aspectRatio": "auto",
+      "objectFit": "fill",
+      "overflow": "visible",
+      "filter": "none",
+      "backdrop": "none"
+    },
+    {
+      "tag": "button",
+      "id": null,
+      "cls": "MuiButtonBase-root MuiIconButton-root MuiIconButton-sizeMedium css-mfslm7",
+      "role": null,
+      "text": "",
+      "rect": {
+        "x": 613,
+        "y": 164,
+        "w": 33,
+        "h": 33
+      },
+      "font": {
+        "family": "Roboto, Helvetica, Arial, sans-serif",
+        "size": "24px",
+        "weight": "700",
+        "lineHeight": "27.6px",
+        "letterSpacing": "normal",
+        "transform": "none"
+      },
+      "color": "rgba(0, 0, 0, 0.54)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "bgImage": "none",
+      "radius": "50%",
+      "border": "0px none rgba(0, 0, 0, 0.54)",
+      "shadow": "none",
+      "opacity": "1",
+      "display": "flex",
+      "position": "relative",
+      "gap": "normal",
+      "gridCols": "none",
+      "padding": "8px",
+      "margin": "0px",
+      "maxWidth": "none",
+      "transition": "background-color 0.15s cubic-bezier(0.4, 0, 0.2, 1)",
+      "animation": "none",
+      "clipPath": "none",
+      "aspectRatio": "auto",
+      "objectFit": "fill",
+      "overflow": "visible",
+      "filter": "none",
+      "backdrop": "none"
+    },
+    {
+      "tag": "button",
+      "id": null,
+      "cls": "MuiButtonBase-root MuiIconButton-root MuiIconButton-sizeMedium CustomButton_iconButton__oL2RO\n \n undefined\n css-mfslm7",
+      "role": null,
+      "text": "",
+      "rect": {
+        "x": 1212,
+        "y": 803,
+        "w": 48,
+        "h": 48
+      },
+      "font": {
+        "family": "inter, inter Fallback",
+        "size": "24px",
+        "weight": "700",
+        "lineHeight": "27.6px",
+        "letterSpacing": "normal",
+        "transform": "none"
+      },
+      "color": "rgba(0, 0, 0, 0.54)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "bgImage": "none",
+      "radius": "0px",
+      "border": "0px none rgba(0, 0, 0, 0.54)",
+      "shadow": "none",
+      "opacity": "1",
+      "display": "flex",
+      "position": "relative",
+      "gap": "normal",
+      "gridCols": "none",
+      "padding": "0px",
+      "margin": "0px",
+      "maxWidth": "none",
+      "transition": "background-color 0.15s cubic-bezier(0.4, 0, 0.2, 1)",
+      "animation": "none",
+      "clipPath": "none",
+      "aspectRatio": "auto",
+      "objectFit": "fill",
+      "overflow": "hidden",
+      "filter": "none",
+      "backdrop": "none"
+    },
+    {
+      "tag": "button",
+      "id": null,
+      "cls": "MuiButtonBase-root MuiIconButton-root MuiIconButton-sizeMedium CustomButton_iconButton__oL2RO\n \n undefined\n css-mfslm7",
+      "role": null,
+      "text": "",
+      "rect": {
+        "x": 1272,
+        "y": 803,
+        "w": 48,
+        "h": 48
+      },
+      "font": {
+        "family": "inter, inter Fallback",
+        "size": "24px",
+        "weight": "700",
+        "lineHeight": "27.6px",
+        "letterSpacing": "normal",
+        "transform": "none"
+      },
+      "color": "rgba(0, 0, 0, 0.54)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "bgImage": "none",
+      "radius": "0px",
+      "border": "0px none rgba(0, 0, 0, 0.54)",
+      "shadow": "none",
+      "opacity": "1",
+      "display": "flex",
+      "position": "relative",
+      "gap": "normal",
+      "gridCols": "none",
+      "padding": "0px",
+      "margin": "0px",
+      "maxWidth": "none",
+      "transition": "background-color 0.15s cubic-bezier(0.4, 0, 0.2, 1)",
+      "animation": "none",
+      "clipPath": "none",
+      "aspectRatio": "auto",
+      "objectFit": "fill",
+      "overflow": "hidden",
+      "filter": "none",
+      "backdrop": "none"
+    }
+  ],
+  "footer": {
+    "outer": [
+      {
+        "tag": "footer",
+        "id": null,
+        "cls": "Footer_footer__OYoYH",
+        "role": null,
+        "text": "COOKIE SETTINGS ©SUNRISE ©SUNRISE・MBS Copyright ©Bandai Namco Filmworks Inc. All",
+        "rect": {
+          "x": 0,
+          "y": 5481,
+          "w": 1440,
+          "h": 725
+        },
+        "font": {
+          "family": "inter, inter Fallback",
+          "size": "16px",
+          "weight": "400",
+          "lineHeight": "18.4px",
+          "letterSpacing": "normal",
+          "transform": "none"
+        },
+        "color": "rgb(255, 255, 255)",
+        "bg": "rgb(0, 0, 0)",
+        "bgImage": "none",
+        "radius": "0px",
+        "border": "0px none rgb(255, 255, 255)",
+        "shadow": "none",
+        "opacity": "1",
+        "display": "flex",
+        "position": "relative",
+        "gap": "normal",
+        "gridCols": "none",
+        "padding": "100px 0px 60px",
+        "margin": "-20px 0px 0px",
+        "maxWidth": "none",
+        "transition": "all",
+        "animation": "none",
+        "clipPath": "none",
+        "aspectRatio": "auto",
+        "objectFit": "fill",
+        "overflow": "visible",
+        "filter": "none",
+        "backdrop": "none"
+      }
+    ],
+    "links": [
+      {
+        "tag": "a",
+        "id": null,
+        "cls": null,
+        "role": null,
+        "text": "",
+        "rect": {
+          "x": 60,
+          "y": 5687,
+          "w": 0,
+          "h": 0
+        },
+        "font": {
+          "family": "manrope, manrope Fallback",
+          "size": "30px",
+          "weight": "600",
+          "lineHeight": "36px",
+          "letterSpacing": "-0.9px",
+          "transform": "none"
+        },
+        "color": "rgb(255, 255, 255)",
+        "bg": "rgba(0, 0, 0, 0)",
+        "bgImage": "none",
+        "radius": "0px",
+        "border": "0px none rgb(255, 255, 255)",
+        "shadow": "none",
+        "opacity": "1",
+        "display": "block",
+        "position": "static",
+        "gap": "normal",
+        "gridCols": "none",
+        "padding": "0px",
+        "margin": "0px",
+        "maxWidth": "none",
+        "transition": "all",
+        "animation": "none",
+        "clipPath": "none",
+        "aspectRatio": "auto",
+        "objectFit": "fill",
+        "overflow": "visible",
+        "filter": "none",
+        "backdrop": "none"
+      },
+      {
+        "tag": "a",
+        "id": null,
+        "cls": null,
+        "role": null,
+        "text": "",
+        "rect": {
+          "x": 60,
+          "y": 5707,
+          "w": 0,
+          "h": 0
+        },
+        "font": {
+          "family": "manrope, manrope Fallback",
+          "size": "30px",
+          "weight": "600",
+          "lineHeight": "36px",
+          "letterSpacing": "-0.9px",
+          "transform": "none"
+        },
+        "color": "rgb(255, 255, 255)",
+        "bg": "rgba(0, 0, 0, 0)",
+        "bgImage": "none",
+        "radius": "0px",
+        "border": "0px none rgb(255, 255, 255)",
+        "shadow": "none",
+        "opacity": "1",
+        "display": "block",
+        "position": "static",
+        "gap": "normal",
+        "gridCols": "none",
+        "padding": "0px",
+        "margin": "0px",
+        "maxWidth": "none",
+        "transition": "all",
+        "animation": "none",
+        "clipPath": "none",
+        "aspectRatio": "auto",
+        "objectFit": "fill",
+        "overflow": "visible",
+        "filter": "none",
+        "backdrop": "none"
+      },
+      {
+        "tag": "a",
+        "id": null,
+        "cls": null,
+        "role": null,
+        "text": "",
+        "rect": {
+          "x": 60,
+          "y": 5727,
+          "w": 0,
+          "h": 0
+        },
+        "font": {
+          "family": "manrope, manrope Fallback",
+          "size": "30px",
+          "weight": "600",
+          "lineHeight": "36px",
+          "letterSpacing": "-0.9px",
+          "transform": "none"
+        },
+        "color": "rgb(255, 255, 255)",
+        "bg": "rgba(0, 0, 0, 0)",
+        "bgImage": "none",
+        "radius": "0px",
+        "border": "0px none rgb(255, 255, 255)",
+        "shadow": "none",
+        "opacity": "1",
+        "display": "block",
+        "position": "static",
+        "gap": "normal",
+        "gridCols": "none",
+        "padding": "0px",
+        "margin": "0px",
+        "maxWidth": "none",
+        "transition": "all",
+        "animation": "none",
+        "clipPath": "none",
+        "aspectRatio": "auto",
+        "objectFit": "fill",
+        "overflow": "visible",
+        "filter": "none",
+        "backdrop": "none"
+      },
+      {
+        "tag": "a",
+        "id": null,
+        "cls": null,
+        "role": null,
+        "text": "",
+        "rect": {
+          "x": 60,
+          "y": 5747,
+          "w": 0,
+          "h": 0
+        },
+        "font": {
+          "family": "manrope, manrope Fallback",
+          "size": "30px",
+          "weight": "600",
+          "lineHeight": "36px",
+          "letterSpacing": "-0.9px",
+          "transform": "none"
+        },
+        "color": "rgb(255, 255, 255)",
+        "bg": "rgba(0, 0, 0, 0)",
+        "bgImage": "none",
+        "radius": "0px",
+        "border": "0px none rgb(255, 255, 255)",
+        "shadow": "none",
+        "opacity": "1",
+        "display": "block",
+        "position": "static",
+        "gap": "normal",
+        "gridCols": "none",
+        "padding": "0px",
+        "margin": "0px",
+        "maxWidth": "none",
+        "transition": "all",
+        "animation": "none",
+        "clipPath": "none",
+        "aspectRatio": "auto",
+        "objectFit": "fill",
+        "overflow": "visible",
+        "filter": "none",
+        "backdrop": "none"
+      },
+      {
+        "tag": "a",
+        "id": null,
+        "cls": null,
+        "role": null,
+        "text": "",
+        "rect": {
+          "x": 60,
+          "y": 5767,
+          "w": 0,
+          "h": 0
+        },
+        "font": {
+          "family": "manrope, manrope Fallback",
+          "size": "30px",
+          "weight": "600",
+          "lineHeight": "36px",
+          "letterSpacing": "-0.9px",
+          "transform": "none"
+        },
+        "color": "rgb(255, 255, 255)",
+        "bg": "rgba(0, 0, 0, 0)",
+        "bgImage": "none",
+        "radius": "0px",
+        "border": "0px none rgb(255, 255, 255)",
+        "shadow": "none",
+        "opacity": "1",
+        "display": "block",
+        "position": "static",
+        "gap": "normal",
+        "gridCols": "none",
+        "padding": "0px",
+        "margin": "0px",
+        "maxWidth": "none",
+        "transition": "all",
+        "animation": "none",
+        "clipPath": "none",
+        "aspectRatio": "auto",
+        "objectFit": "fill",
+        "overflow": "visible",
+        "filter": "none",
+        "backdrop": "none"
+      },
+      {
+        "tag": "a",
+        "id": null,
+        "cls": null,
+        "role": null,
+        "text": "",
+        "rect": {
+          "x": 1197,
+          "y": 5687,
+          "w": 183,
+          "h": 0
+        },
+        "font": {
+          "family": "jetBrainsMonoGreek, jetBrainsMonoGreek Fallback, jetBrainsMo",
+          "size": "16px",
+          "weight": "400",
+          "lineHeight": "16px",
+          "letterSpacing": "-0.48px",
+          "transform": "none"
+        },
+        "color": "rgb(255, 255, 255)",
+        "bg": "rgba(0, 0, 0, 0)",
+        "bgImage": "none",
+        "radius": "0px",
+        "border": "0px none rgb(255, 255, 255)",
+        "shadow": "none",
+        "opacity": "1",
+        "display": "block",
+        "position": "static",
+        "gap": "normal",
+        "gridCols": "none",
+        "padding": "0px",
+        "margin": "0px",
+        "maxWidth": "none",
+        "transition": "all",
+        "animation": "none",
+        "clipPath": "none",
+        "aspectRatio": "auto",
+        "objectFit": "fill",
+        "overflow": "visible",
+        "filter": "none",
+        "backdrop": "none"
+      },
+      {
+        "tag": "a",
+        "id": null,
+        "cls": null,
+        "role": null,
+        "text": "",
+        "rect": {
+          "x": 1197,
+          "y": 5707,
+          "w": 183,
+          "h": 0
+        },
+        "font": {
+          "family": "jetBrainsMonoGreek, jetBrainsMonoGreek Fallback, jetBrainsMo",
+          "size": "16px",
+          "weight": "400",
+          "lineHeight": "16px",
+          "letterSpacing": "-0.48px",
+          "transform": "none"
+        },
+        "color": "rgb(255, 255, 255)",
+        "bg": "rgba(0, 0, 0, 0)",
+        "bgImage": "none",
+        "radius": "0px",
+        "border": "0px none rgb(255, 255, 255)",
+        "shadow": "none",
+        "opacity": "1",
+        "display": "block",
+        "position": "static",
+        "gap": "normal",
+        "gridCols": "none",
+        "padding": "0px",
+        "margin": "0px",
+        "maxWidth": "none",
+        "transition": "all",
+        "animation": "none",
+        "clipPath": "none",
+        "aspectRatio": "auto",
+        "objectFit": "fill",
+        "overflow": "visible",
+        "filter": "none",
+        "backdrop": "none"
+      }
+    ]
+  },
+  "transitioned": [
+    {
+      "tag": "div",
+      "cls": "",
+      "text": "LATEST NEWS\nFree to Join! \"Gunpla Assemb",
+      "trans": "opacity 0.225s cubic-bezier(0.4, 0, 0.2, 1)",
+      "anim": "none",
+      "willChange": "auto",
+      "transform": "none"
+    },
+    {
+      "tag": "header",
+      "cls": "MuiPaper-root MuiPaper-elevation MuiPaper-elevation0 MuiAppBar-root MuiAppBar-colorTranspa",
+      "text": "LATEST NEWS\nFree to Join! \"Gunpla Assemb",
+      "trans": "box-shadow 0.3s cubic-bezier(0.4, 0, 0.2, 1)",
+      "anim": "none",
+      "willChange": "auto",
+      "transform": "none"
+    },
+    {
+      "tag": "div",
+      "cls": "MuiToolbar-root MuiToolbar-gutters MuiToolbar-regular Header_newsHeader__Djoo8 bodySS css-",
+      "text": "LATEST NEWS\nFree to Join! \"Gunpla Assemb",
+      "trans": "background-color 0.3s, color 0.3s",
+      "anim": "none",
+      "willChange": "auto",
+      "transform": "none"
+    },
+    {
+      "tag": "div",
+      "cls": "MuiToolbar-root MuiToolbar-gutters MuiToolbar-regular Header_header__MwWvM Header_headerBl",
+      "text": "SERIES\nNEWS\nPRODUCTS\nSNS\nLOG IN\nLANGUAGE",
+      "trans": "background-color 0.2s, color 0.2s",
+      "anim": "none",
+      "willChange": "auto",
+      "transform": "none"
+    },
+    {
+      "tag": "button",
+      "cls": "MuiButtonBase-root MuiIconButton-root MuiIconButton-sizeMedium Header_headerIcon__Z5gfS He",
+      "text": "",
+      "trans": "background-color 0.15s cubic-bezier(0.4, 0, 0.2, 1)",
+      "anim": "none",
+      "willChange": "auto",
+      "transform": "none"
+    },
+    {
+      "tag": "path",
+      "cls": "",
+      "text": "",
+      "trans": "opacity 0.3s ease-in-out",
+      "anim": "none",
+      "willChange": "auto",
+      "transform": "none"
+    },
+    {
+      "tag": "path",
+      "cls": "",
+      "text": "",
+      "trans": "opacity 0.3s ease-in-out",
+      "anim": "none",
+      "willChange": "auto",
+      "transform": "none"
+    },
+    {
+      "tag": "path",
+      "cls": "",
+      "text": "",
+      "trans": "opacity 0.3s ease-in-out",
+      "anim": "none",
+      "willChange": "auto",
+      "transform": "none"
+    },
+    {
+      "tag": "button",
+      "cls": "MuiButtonBase-root MuiIconButton-root MuiIconButton-sizeMedium css-zniur5",
+      "text": "",
+      "trans": "background-color 0.15s cubic-bezier(0.4, 0, 0.2, 1)",
+      "anim": "none",
+      "willChange": "auto",
+      "transform": "none"
+    },
+    {
+      "tag": "button",
+      "cls": "MuiButtonBase-root MuiIconButton-root MuiIconButton-sizeMedium css-zniur5",
+      "text": "",
+      "trans": "background-color 0.15s cubic-bezier(0.4, 0, 0.2, 1)",
+      "anim": "none",
+      "willChange": "auto",
+      "transform": "none"
+    },
+    {
+      "tag": "button",
+      "cls": "MuiButtonBase-root MuiIconButton-root MuiIconButton-sizeMedium Header_headerIcon__Z5gfS He",
+      "text": "",
+      "trans": "background-color 0.15s cubic-bezier(0.4, 0, 0.2, 1)",
+      "anim": "none",
+      "willChange": "auto",
+      "transform": "none"
+    },
+    {
+      "tag": "div",
+      "cls": "MuiCollapse-root MuiCollapse-vertical MuiCollapse-hidden css-abqyn",
+      "text": "",
+      "trans": "height 0.3s cubic-bezier(0.4, 0, 0.2, 1)",
+      "anim": "none",
+      "willChange": "auto",
+      "transform": "none"
+    },
+    {
+      "tag": "div",
+      "cls": "MuiCollapse-root MuiCollapse-vertical MuiCollapse-hidden css-abqyn",
+      "text": "",
+      "trans": "height 0.3s cubic-bezier(0.4, 0, 0.2, 1)",
+      "anim": "none",
+      "willChange": "auto",
+      "transform": "none"
+    },
+    {
+      "tag": "input",
+      "cls": "MuiInputBase-input MuiOutlinedInput-input MuiInputBase-inputAdornedEnd css-qwdxx6",
+      "text": "",
+      "trans": "all",
+      "anim": "0.01s mui-auto-fill-cancel",
+      "willChange": "auto",
+      "transform": "none"
+    },
+    {
+      "tag": "button",
+      "cls": "MuiButtonBase-root MuiIconButton-root MuiIconButton-sizeMedium css-mfslm7",
+      "text": "",
+      "trans": "background-color 0.15s cubic-bezier(0.4, 0, 0.2, 1)",
+      "anim": "none",
+      "willChange": "auto",
+      "transform": "none"
+    },
+    {
+      "tag": "legend",
+      "cls": "css-w4cd9x",
+      "text": "",
+      "trans": "width 0.15s cubic-bezier(0, 0, 0.2, 1)",
+      "anim": "none",
+      "willChange": "auto",
+      "transform": "none"
+    },
+    {
+      "tag": "video",
+      "cls": "Hero_slide__yLInk",
+      "text": "",
+      "trans": "transform 1s cubic-bezier(0.25, 0, 0, 1)",
+      "anim": "none",
+      "willChange": "auto",
+      "transform": "matrix(1, 0, 0, 1, 0, 0)"
+    },
+    {
+      "tag": "source",
+      "cls": "",
+      "text": "",
+      "trans": "",
+      "anim": "",
+      "willChange": "",
+      "transform": ""
+    },
+    {
+      "tag": "div",
+      "cls": "Hero_thumbnailWrapper__uWVWm Hero_thumbnailVisible__emEQp",
+      "text": "",
+      "trans": "max-height 0.5s ease-in-out",
+      "anim": "none",
+      "willChange": "auto",
+      "transform": "none"
+    },
+    {
+      "tag": "div",
+      "cls": "MuiBox-root css-qdf9px",
+      "text": "Mobile Suit Gundam SEED FREEDOM ZERO",
+      "trans": "color 0.1s",
+      "anim": "none",
+      "willChange": "auto",
+      "transform": "none"
+    },
+    {
+      "tag": "div",
+      "cls": "Hero_overview__KGHRz Hero_overviewVisible__iQ_XE bodyM",
+      "text": "Coming to theaters in North America in F",
+      "trans": "opacity 0.5s ease-in-out, transform 0.5s ease-in-out, max-height 0.5s ease-in-out",
+      "anim": "none",
+      "willChange": "auto",
+      "transform": "matrix(1, 0, 0, 1, 0, 0)"
+    },
+    {
+      "tag": "div",
+      "cls": "MuiCollapse-root MuiCollapse-horizontal MuiCollapse-entered css-1akz55z",
+      "text": "OFFICIAL SITE",
+      "trans": "width 0.5s cubic-bezier(0.4, 0, 0.2, 1)",
+      "anim": "none",
+      "willChange": "auto",
+      "transform": "none"
+    },
+    {
+      "tag": "button",
+      "cls": "MuiButtonBase-root MuiIconButton-root MuiIconButton-sizeMedium CustomButton_iconButton__oL",
+      "text": "",
+      "trans": "background-color 0.15s cubic-bezier(0.4, 0, 0.2, 1)",
+      "anim": "none",
+      "willChange": "auto",
+      "transform": "none"
+    },
+    {
+      "tag": "path",
+      "cls": "",
+      "text": "",
+      "trans": "stroke 0.3s ease-in-out",
+      "anim": "none",
+      "willChange": "auto",
+      "transform": "none"
+    },
+    {
+      "tag": "div",
+      "cls": "CustomButton_icon__1vs91 ",
+      "text": "",
+      "trans": "color 0.3s ease-in-out",
+      "anim": "none",
+      "willChange": "auto",
+      "transform": "none"
+    },
+    {
+      "tag": "button",
+      "cls": "MuiButtonBase-root MuiIconButton-root MuiIconButton-sizeMedium CustomButton_iconButton__oL",
+      "text": "",
+      "trans": "background-color 0.15s cubic-bezier(0.4, 0, 0.2, 1)",
+      "anim": "none",
+      "willChange": "auto",
+      "transform": "none"
+    },
+    {
+      "tag": "path",
+      "cls": "",
+      "text": "",
+      "trans": "stroke 0.3s ease-in-out",
+      "anim": "none",
+      "willChange": "auto",
+      "transform": "none"
+    },
+    {
+      "tag": "div",
+      "cls": "CustomButton_icon__1vs91 ",
+      "text": "",
+      "trans": "color 0.3s ease-in-out",
+      "anim": "none",
+      "willChange": "auto",
+      "transform": "none"
+    },
+    {
+      "tag": "button",
+      "cls": "MuiButtonBase-root MuiIconButton-root MuiIconButton-sizeMedium CustomButton_iconButton__oL",
+      "text": "",
+      "trans": "background-color 0.15s cubic-bezier(0.4, 0, 0.2, 1)",
+      "anim": "none",
+      "willChange": "auto",
+      "transform": "none"
+    },
+    {
+      "tag": "path",
+      "cls": "",
+      "text": "",
+      "trans": "stroke 0.3s ease-in-out",
+      "anim": "none",
+      "willChange": "auto",
+      "transform": "none"
+    },
+    {
+      "tag": "div",
+      "cls": "CustomButton_icon__1vs91 ",
+      "text": "",
+      "trans": "color 0.3s ease-in-out",
+      "anim": "none",
+      "willChange": "auto",
+      "transform": "none"
+    },
+    {
+      "tag": "video",
+      "cls": "Hero_slide__yLInk",
+      "text": "",
+      "trans": "transform 1s cubic-bezier(0.25, 0, 0, 1)",
+      "anim": "none",
+      "willChange": "auto",
+      "transform": "matrix(1, 0, 0, 1, 0, 0)"
+    },
+    {
+      "tag": "source",
+      "cls": "",
+      "text": "",
+      "trans": "",
+      "anim": "",
+      "willChange": "",
+      "transform": ""
+    },
+    {
+      "tag": "div",
+      "cls": "Hero_thumbnailWrapper__uWVWm Hero_thumbnailVisible__emEQp",
+      "text": "",
+      "trans": "max-height 0.5s ease-in-out",
+      "anim": "none",
+      "willChange": "auto",
+      "transform": "none"
+    },
+    {
+      "tag": "div",
+      "cls": "MuiBox-root css-qdf9px",
+      "text": "Mobile Suit Gundam RG XARX-ZERO",
+      "trans": "color 0.1s",
+      "anim": "none",
+      "willChange": "auto",
+      "transform": "none"
+    },
+    {
+      "tag": "div",
+      "cls": "Hero_overview__KGHRz Hero_overviewVisible__iQ_XE bodyM",
+      "text": "A reimagined Gundam envisioned by Kenji ",
+      "trans": "opacity 0.5s ease-in-out, transform 0.5s ease-in-out, max-height 0.5s ease-in-out",
+      "anim": "none",
+      "willChange": "auto",
+      "transform": "matrix(1, 0, 0, 1, 0, 0)"
+    },
+    {
+      "tag": "div",
+      "cls": "MuiCollapse-root MuiCollapse-horizontal MuiCollapse-entered css-1akz55z",
+      "text": "RG project Portable Site",
+      "trans": "width 0.5s cubic-bezier(0.4, 0, 0.2, 1)",
+      "anim": "none",
+      "willChange": "auto",
+      "transform": "none"
+    },
+    {
+      "tag": "button",
+      "cls": "MuiButtonBase-root MuiIconButton-root MuiIconButton-sizeMedium CustomButton_iconButton__oL",
+      "text": "",
+      "trans": "background-color 0.15s cubic-bezier(0.4, 0, 0.2, 1)",
+      "anim": "none",
+      "willChange": "auto",
+      "transform": "none"
+    },
+    {
+      "tag": "path",
+      "cls": "",
+      "text": "",
+      "trans": "stroke 0.3s ease-in-out",
+      "anim": "none",
+      "willChange": "auto",
+      "transform": "none"
+    },
+    {
+      "tag": "div",
+      "cls": "CustomButton_icon__1vs91 ",
+      "text": "",
+      "trans": "color 0.3s ease-in-out",
+      "anim": "none",
+      "willChange": "auto",
+      "transform": "none"
+    },
+    {
+      "tag": "button",
+      "cls": "MuiButtonBase-root MuiIconButton-root MuiIconButton-sizeMedium CustomButton_iconButton__oL",
+      "text": "",
+      "trans": "background-color 0.15s cubic-bezier(0.4, 0, 0.2, 1)",
+      "anim": "none",
+      "willChange": "auto",
+      "transform": "none"
+    },
+    {
+      "tag": "path",
+      "cls": "",
+      "text": "",
+      "trans": "stroke 0.3s ease-in-out",
+      "anim": "none",
+      "willChange": "auto",
+      "transform": "none"
+    },
+    {
+      "tag": "div",
+      "cls": "CustomButton_icon__1vs91 ",
+      "text": "",
+      "trans": "color 0.3s ease-in-out",
+      "anim": "none",
+      "willChange": "auto",
+      "transform": "none"
+    },
+    {
+      "tag": "button",
+      "cls": "MuiButtonBase-root MuiIconButton-root MuiIconButton-sizeMedium CustomButton_iconButton__oL",
+      "text": "",
+      "trans": "background-color 0.15s cubic-bezier(0.4, 0, 0.2, 1)",
+      "anim": "none",
+      "willChange": "auto",
+      "transform": "none"
+    },
+    {
+      "tag": "path",
+      "cls": "",
+      "text": "",
+      "trans": "stroke 0.3s ease-in-out",
+      "anim": "none",
+      "willChange": "auto",
+      "transform": "none"
+    },
+    {
+      "tag": "div",
+      "cls": "CustomButton_icon__1vs91 ",
+      "text": "",
+      "trans": "color 0.3s ease-in-out",
+      "anim": "none",
+      "willChange": "auto",
+      "transform": "none"
+    },
+    {
+      "tag": "video",
+      "cls": "Hero_slide__yLInk",
+      "text": "",
+      "trans": "transform 1s cubic-bezier(0.25, 0, 0, 1)",
+      "anim": "none",
+      "willChange": "auto",
+      "transform": "matrix(1, 0, 0, 1, 0, 0)"
+    },
+    {
+      "tag": "source",
+      "cls": "",
+      "text": "",
+      "trans": "",
+      "anim": "",
+      "willChange": "",
+      "transform": ""
+    },
+    {
+      "tag": "div",
+      "cls": "Hero_thumbnailWrapper__uWVWm Hero_thumbnailVisible__emEQp",
+      "text": "",
+      "trans": "max-height 0.5s ease-in-out",
+      "anim": "none",
+      "willChange": "auto",
+      "transform": "none"
+    },
+    {
+      "tag": "div",
+      "cls": "MuiBox-root css-qdf9px",
+      "text": "GUNDAM ROGUE ORBIT",
+      "trans": "color 0.1s",
+      "anim": "none",
+      "willChange": "auto",
+      "transform": "none"
+    },
+    {
+      "tag": "div",
+      "cls": "Hero_overview__KGHRz Hero_overviewVisible__iQ_XE bodyM",
+      "text": "\"GUNDAM ROGUE ORBIT\" launching in 2027!",
+      "trans": "opacity 0.5s ease-in-out, transform 0.5s ease-in-out, max-height 0.5s ease-in-out",
+      "anim": "none",
+      "willChange": "auto",
+      "transform": "matrix(1, 0, 0, 1, 0, 0)"
+    },
+    {
+      "tag": "div",
+      "cls": "MuiCollapse-root MuiCollapse-horizontal MuiCollapse-entered css-1akz55z",
+      "text": "RG project Portable Site",
+      "trans": "width 0.5s cubic-bezier(0.4, 0, 0.2, 1)",
+      "anim": "none",
+      "willChange": "auto",
+      "transform": "none"
+    },
+    {
+      "tag": "button",
+      "cls": "MuiButtonBase-root MuiIconButton-root MuiIconButton-sizeMedium CustomButton_iconButton__oL",
+      "text": "",
+      "trans": "background-color 0.15s cubic-bezier(0.4, 0, 0.2, 1)",
+      "anim": "none",
+      "willChange": "auto",
+      "transform": "none"
+    },
+    {
+      "tag": "path",
+      "cls": "",
+      "text": "",
+      "trans": "stroke 0.3s ease-in-out",
+      "anim": "none",
+      "willChange": "auto",
+      "transform": "none"
+    },
+    {
+      "tag": "div",
+      "cls": "CustomButton_icon__1vs91 ",
+      "text": "",
+      "trans": "color 0.3s ease-in-out",
+      "anim": "none",
+      "willChange": "auto",
+      "transform": "none"
+    },
+    {
+      "tag": "button",
+      "cls": "MuiButtonBase-root MuiIconButton-root MuiIconButton-sizeMedium CustomButton_iconButton__oL",
+      "text": "",
+      "trans": "background-color 0.15s cubic-bezier(0.4, 0, 0.2, 1)",
+      "anim": "none",
+      "willChange": "auto",
+      "transform": "none"
+    },
+    {
+      "tag": "path",
+      "cls": "",
+      "text": "",
+      "trans": "stroke 0.3s ease-in-out",
+      "anim": "none",
+      "willChange": "auto",
+      "transform": "none"
+    },
+    {
+      "tag": "div",
+      "cls": "CustomButton_icon__1vs91 ",
+      "text": "",
+      "trans": "color 0.3s ease-in-out",
+      "anim": "none",
+      "willChange": "auto",
+      "transform": "none"
+    },
+    {
+      "tag": "button",
+      "cls": "MuiButtonBase-root MuiIconButton-root MuiIconButton-sizeMedium CustomButton_iconButton__oL",
+      "text": "",
+      "trans": "background-color 0.15s cubic-bezier(0.4, 0, 0.2, 1)",
+      "anim": "none",
+      "willChange": "auto",
+      "transform": "none"
+    },
+    {
+      "tag": "path",
+      "cls": "",
+      "text": "",
+      "trans": "stroke 0.3s ease-in-out",
+      "anim": "none",
+      "willChange": "auto",
+      "transform": "none"
+    },
+    {
+      "tag": "div",
+      "cls": "CustomButton_icon__1vs91 ",
+      "text": "",
+      "trans": "color 0.3s ease-in-out",
+      "anim": "none",
+      "willChange": "auto",
+      "transform": "none"
+    },
+    {
+      "tag": "video",
+      "cls": "Hero_slide__yLInk",
+      "text": "",
+      "trans": "transform 1s cubic-bezier(0.25, 0, 0, 1)",
+      "anim": "none",
+      "willChange": "auto",
+      "transform": "matrix(1, 0, 0, 1, 0, 0)"
+    },
+    {
+      "tag": "source",
+      "cls": "",
+      "text": "",
+      "trans": "",
+      "anim": "",
+      "willChange": "",
+      "transform": ""
+    },
+    {
+      "tag": "div",
+      "cls": "Hero_thumbnailWrapper__uWVWm Hero_thumbnailVisible__emEQp",
+      "text": "",
+      "trans": "max-height 0.5s ease-in-out",
+      "anim": "none",
+      "willChange": "auto",
+      "transform": "none"
+    },
+    {
+      "tag": "div",
+      "cls": "MuiBox-root css-qdf9px",
+      "text": "GUNDAM Watch on YouTube",
+      "trans": "color 0.1s",
+      "anim": "none",
+      "willChange": "auto",
+      "transform": "none"
+    },
+    {
+      "tag": "div",
+      "cls": "Hero_overview__KGHRz Hero_overviewVisible__iQ_XE bodyM",
+      "text": "A website summarizing information on the",
+      "trans": "opacity 0.5s ease-in-out, transform 0.5s ease-in-out, max-height 0.5s ease-in-out",
+      "anim": "none",
+      "willChange": "auto",
+      "transform": "matrix(1, 0, 0, 1, 0, 0)"
+    },
+    {
+      "tag": "div",
+      "cls": "MuiCollapse-root MuiCollapse-horizontal MuiCollapse-entered css-1akz55z",
+      "text": "WATCH NOW",
+      "trans": "width 0.5s cubic-bezier(0.4, 0, 0.2, 1)",
+      "anim": "none",
+      "willChange": "auto",
+      "transform": "none"
+    },
+    {
+      "tag": "button",
+      "cls": "MuiButtonBase-root MuiIconButton-root MuiIconButton-sizeMedium CustomButton_iconButton__oL",
+      "text": "",
+      "trans": "background-color 0.15s cubic-bezier(0.4, 0, 0.2, 1)",
+      "anim": "none",
+      "willChange": "auto",
+      "transform": "none"
+    },
+    {
+      "tag": "path",
+      "cls": "",
+      "text": "",
+      "trans": "stroke 0.3s ease-in-out",
+      "anim": "none",
+      "willChange": "auto",
+      "transform": "none"
+    },
+    {
+      "tag": "div",
+      "cls": "CustomButton_icon__1vs91 ",
+      "text": "",
+      "trans": "color 0.3s ease-in-out",
+      "anim": "none",
+      "willChange": "auto",
+      "transform": "none"
+    },
+    {
+      "tag": "button",
+      "cls": "MuiButtonBase-root MuiIconButton-root MuiIconButton-sizeMedium CustomButton_iconButton__oL",
+      "text": "",
+      "trans": "background-color 0.15s cubic-bezier(0.4, 0, 0.2, 1)",
+      "anim": "none",
+      "willChange": "auto",
+      "transform": "none"
+    },
+    {
+      "tag": "path",
+      "cls": "",
+      "text": "",
+      "trans": "stroke 0.3s ease-in-out",
+      "anim": "none",
+      "willChange": "auto",
+      "transform": "none"
+    },
+    {
+      "tag": "div",
+      "cls": "CustomButton_icon__1vs91 ",
+      "text": "",
+      "trans": "color 0.3s ease-in-out",
+      "anim": "none",
+      "willChange": "auto",
+      "transform": "none"
+    },
+    {
+      "tag": "button",
+      "cls": "MuiButtonBase-root MuiIconButton-root MuiIconButton-sizeMedium CustomButton_iconButton__oL",
+      "text": "",
+      "trans": "background-color 0.15s cubic-bezier(0.4, 0, 0.2, 1)",
+      "anim": "none",
+      "willChange": "auto",
+      "transform": "none"
+    },
+    {
+      "tag": "path",
+      "cls": "",
+      "text": "",
+      "trans": "stroke 0.3s ease-in-out",
+      "anim": "none",
+      "willChange": "auto",
+      "transform": "none"
+    },
+    {
+      "tag": "div",
+      "cls": "CustomButton_icon__1vs91 ",
+      "text": "",
+      "trans": "color 0.3s ease-in-out",
+      "anim": "none",
+      "willChange": "auto",
+      "transform": "none"
+    },
+    {
+      "tag": "img",
+      "cls": "Hero_slide__yLInk MuiBox-root css-0",
+      "text": "",
+      "trans": "transform 0.3s",
+      "anim": "none",
+      "willChange": "auto",
+      "transform": "matrix(1.02764, 0, 0, 1.02764, 0, 0)"
+    },
+    {
+      "tag": "div",
+      "cls": "Hero_thumbnailWrapper__uWVWm Hero_thumbnailVisible__emEQp",
+      "text": "",
+      "trans": "max-height 0.5s ease-in-out",
+      "anim": "none",
+      "willChange": "auto",
+      "transform": "none"
+    },
+    {
+      "tag": "div",
+      "cls": "MuiBox-root css-qdf9px",
+      "text": "GUNDAM-Con 2027 SIDE MAKUHARI",
+      "trans": "color 0.1s",
+      "anim": "none",
+      "willChange": "auto",
+      "transform": "none"
+    },
+    {
+      "tag": "div",
+      "cls": "Hero_overview__KGHRz Hero_overviewVisible__iQ_XE bodyM",
+      "text": "The inaugural event\"GUNDAM-Con 2027 SIDE",
+      "trans": "opacity 0.5s ease-in-out, transform 0.5s ease-in-out, max-height 0.5s ease-in-out",
+      "anim": "none",
+      "willChange": "auto",
+      "transform": "matrix(1, 0, 0, 1, 0, 0)"
+    }
+  ]
+}

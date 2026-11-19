@@ -1,0 +1,407 @@
+{
+ "clipCount": 52,
+ "clips": [
+  {
+   "tag": "g",
+   "cls": "",
+   "w": 184,
+   "h": 20,
+   "clip": "url(\"#clip0_575_9267\")",
+   "bg": "rgba(0, 0, 0, 0)",
+   "bgImg": "none",
+   "border": "0px rgb(255, 255, 255)"
+  },
+  {
+   "tag": "div",
+   "cls": "MuiFormControl-root SearchBar_searchForm__IzjwS css-1qk38wv",
+   "w": 601,
+   "h": 56,
+   "clip": "polygon(0px 0px, 100% 0px, 100% calc(100% - 12px), calc(100% - 12px) 100%, 0px 100%, 0px 0px)",
+   "bg": "rgba(0, 0, 0, 0)",
+   "bgImg": "none",
+   "border": "1px solid rgb(174, 174, 174)"
+  },
+  {
+   "tag": "div",
+   "cls": "CommonButton_frameBorder__09yLB CommonButton_darkGray__mBWvD ",
+   "w": 178,
+   "h": 50,
+   "clip": "polygon(9.65723px 0.999985px, calc(100% - 4px) 0.999985px, calc(100% - 4px) 0.999985px, calc(100% - 3.43228px) 1.04579px, calc(100% - 2.89373px) 1.17842px, calc(100% - 2.39155px) 1",
+   "bg": "rgb(82, 82, 82)",
+   "bgImg": "none",
+   "border": "0px rgb(34, 34, 34)"
+  },
+  {
+   "tag": "div",
+   "cls": "CommonButton_frame__HuST7",
+   "w": 176,
+   "h": 48,
+   "clip": "polygon(9.65723px 0.999985px, calc(100% - 4px) 0.999985px, calc(100% - 4px) 0.999985px, calc(100% - 3.43228px) 1.04579px, calc(100% - 2.89373px) 1.17842px, calc(100% - 2.39155px) 1",
+   "bg": "rgb(82, 82, 82)",
+   "bgImg": "none",
+   "border": "0px rgb(34, 34, 34)"
+  },
+  {
+   "tag": "span",
+   "cls": "CustomButton_initialBackground__oVUoX",
+   "w": 48,
+   "h": 48,
+   "clip": "polygon(10.5px 0px, 100% 0px, 100% calc(100% - 10.5px), calc(100% - 10.5px) 100%, 0px 100%, 0px 10.5px)",
+   "bg": "rgba(0, 0, 0, 0)",
+   "bgImg": "none",
+   "border": "0px rgba(0, 0, 0, 0.54)"
+  },
+  {
+   "tag": "span",
+   "cls": "CustomButton_hoverBackground__Kr6tp",
+   "w": 0,
+   "h": 48,
+   "clip": "polygon(10.5px 0px, 100% 0px, 100% calc(100% - 10.5px), calc(100% - 10.5px) 100%, 0px 100%, 0px 10.5px)",
+   "bg": "rgb(255, 255, 255)",
+   "bgImg": "none",
+   "border": "0px rgba(0, 0, 0, 0.54)"
+  },
+  {
+   "tag": "span",
+   "cls": "CustomButton_initialBackground__oVUoX",
+   "w": 48,
+   "h": 48,
+   "clip": "polygon(10.5px 0px, 100% 0px, 100% calc(100% - 10.5px), calc(100% - 10.5px) 100%, 0px 100%, 0px 10.5px)",
+   "bg": "rgba(0, 0, 0, 0)",
+   "bgImg": "none",
+   "border": "0px rgba(0, 0, 0, 0.54)"
+  },
+  {
+   "tag": "span",
+   "cls": "CustomButton_hoverBackground__Kr6tp",
+   "w": 0,
+   "h": 48,
+   "clip": "polygon(10.5px 0px, 100% 0px, 100% calc(100% - 10.5px), calc(100% - 10.5px) 100%, 0px 100%, 0px 10.5px)",
+   "bg": "rgb(255, 255, 255)",
+   "bgImg": "none",
+   "border": "0px rgba(0, 0, 0, 0.54)"
+  },
+  {
+   "tag": "span",
+   "cls": "CustomButton_initialBackground__oVUoX",
+   "w": 48,
+   "h": 48,
+   "clip": "polygon(10.5px 0px, 100% 0px, 100% calc(100% - 10.5px), calc(100% - 10.5px) 100%, 0px 100%, 0px 10.5px)",
+   "bg": "rgba(0, 0, 0, 0)",
+   "bgImg": "none",
+   "border": "0px rgba(0, 0, 0, 0.54)"
+  },
+  {
+   "tag": "span",
+   "cls": "CustomButton_hoverBackground__Kr6tp",
+   "w": 0,
+   "h": 48,
+   "clip": "polygon(10.5px 0px, 100% 0px, 100% calc(100% - 10.5px), calc(100% - 10.5px) 100%, 0px 100%, 0px 10.5px)",
+   "bg": "rgb(255, 255, 255)",
+   "bgImg": "none",
+   "border": "0px rgba(0, 0, 0, 0.54)"
+  },
+  {
+   "tag": "div",
+   "cls": "CommonButton_frameBorder__09yLB CommonButton_darkGray__mBWvD ",
+   "w": 178,
+   "h": 50,
+   "clip": "polygon(9.65723px 0.999985px, calc(100% - 4px) 0.999985px, calc(100% - 4px) 0.999985px, calc(100% - 3.43228px) 1.04579px, calc(100% - 2.89373px) 1.17842px, calc(100% - 2.39155px) 1",
+   "bg": "rgb(82, 82, 82)",
+   "bgImg": "none",
+   "border": "0px rgb(34, 34, 34)"
+  },
+  {
+   "tag": "div",
+   "cls": "CommonButton_frame__HuST7",
+   "w": 176,
+   "h": 48,
+   "clip": "polygon(9.65723px 0.999985px, calc(100% - 4px) 0.999985px, calc(100% - 4px) 0.999985px, calc(100% - 3.43228px) 1.04579px, calc(100% - 2.89373px) 1.17842px, calc(100% - 2.39155px) 1",
+   "bg": "rgb(82, 82, 82)",
+   "bgImg": "none",
+   "border": "0px rgb(34, 34, 34)"
+  },
+  {
+   "tag": "span",
+   "cls": "CustomButton_initialBackground__oVUoX",
+   "w": 48,
+   "h": 48,
+   "clip": "polygon(10.5px 0px, 100% 0px, 100% calc(100% - 10.5px), calc(100% - 10.5px) 100%, 0px 100%, 0px 10.5px)",
+   "bg": "rgba(0, 0, 0, 0)",
+   "bgImg": "none",
+   "border": "0px rgba(0, 0, 0, 0.54)"
+  },
+  {
+   "tag": "span",
+   "cls": "CustomButton_hoverBackground__Kr6tp",
+   "w": 0,
+   "h": 48,
+   "clip": "polygon(10.5px 0px, 100% 0px, 100% calc(100% - 10.5px), calc(100% - 10.5px) 100%, 0px 100%, 0px 10.5px)",
+   "bg": "rgb(255, 255, 255)",
+   "bgImg": "none",
+   "border": "0px rgba(0, 0, 0, 0.54)"
+  },
+  {
+   "tag": "span",
+   "cls": "CustomButton_initialBackground__oVUoX",
+   "w": 48,
+   "h": 48,
+   "clip": "polygon(10.5px 0px, 100% 0px, 100% calc(100% - 10.5px), calc(100% - 10.5px) 100%, 0px 100%, 0px 10.5px)",
+   "bg": "rgba(0, 0, 0, 0)",
+   "bgImg": "none",
+   "border": "0px rgba(0, 0, 0, 0.54)"
+  },
+  {
+   "tag": "span",
+   "cls": "CustomButton_hoverBackground__Kr6tp",
+   "w": 0,
+   "h": 48,
+   "clip": "polygon(10.5px 0px, 100% 0px, 100% calc(100% - 10.5px), calc(100% - 10.5px) 100%, 0px 100%, 0px 10.5px)",
+   "bg": "rgb(255, 255, 255)",
+   "bgImg": "none",
+   "border": "0px rgba(0, 0, 0, 0.54)"
+  },
+  {
+   "tag": "span",
+   "cls": "CustomButton_initialBackground__oVUoX",
+   "w": 48,
+   "h": 48,
+   "clip": "polygon(10.5px 0px, 100% 0px, 100% calc(100% - 10.5px), calc(100% - 10.5px) 100%, 0px 100%, 0px 10.5px)",
+   "bg": "rgba(0, 0, 0, 0)",
+   "bgImg": "none",
+   "border": "0px rgba(0, 0, 0, 0.54)"
+  },
+  {
+   "tag": "span",
+   "cls": "CustomButton_hoverBackground__Kr6tp",
+   "w": 0,
+   "h": 48,
+   "clip": "polygon(10.5px 0px, 100% 0px, 100% calc(100% - 10.5px), calc(100% - 10.5px) 100%, 0px 100%, 0px 10.5px)",
+   "bg": "rgb(255, 255, 255)",
+   "bgImg": "none",
+   "border": "0px rgba(0, 0, 0, 0.54)"
+  },
+  {
+   "tag": "div",
+   "cls": "CommonButton_frameBorder__09yLB CommonButton_darkGray__mBWvD ",
+   "w": 178,
+   "h": 50,
+   "clip": "polygon(9.65723px 0.999985px, calc(100% - 4px) 0.999985px, calc(100% - 4px) 0.999985px, calc(100% - 3.43228px) 1.04579px, calc(100% - 2.89373px) 1.17842px, calc(100% - 2.39155px) 1",
+   "bg": "rgb(82, 82, 82)",
+   "bgImg": "none",
+   "border": "0px rgb(34, 34, 34)"
+  },
+  {
+   "tag": "div",
+   "cls": "CommonButton_frame__HuST7",
+   "w": 176,
+   "h": 48,
+   "clip": "polygon(9.65723px 0.999985px, calc(100% - 4px) 0.999985px, calc(100% - 4px) 0.999985px, calc(100% - 3.43228px) 1.04579px, calc(100% - 2.89373px) 1.17842px, calc(100% - 2.39155px) 1",
+   "bg": "rgb(82, 82, 82)",
+   "bgImg": "none",
+   "border": "0px rgb(34, 34, 34)"
+  },
+  {
+   "tag": "span",
+   "cls": "CustomButton_initialBackground__oVUoX",
+   "w": 48,
+   "h": 48,
+   "clip": "polygon(10.5px 0px, 100% 0px, 100% calc(100% - 10.5px), calc(100% - 10.5px) 100%, 0px 100%, 0px 10.5px)",
+   "bg": "rgba(0, 0, 0, 0)",
+   "bgImg": "none",
+   "border": "0px rgba(0, 0, 0, 0.54)"
+  },
+  {
+   "tag": "span",
+   "cls": "CustomButton_hoverBackground__Kr6tp",
+   "w": 0,
+   "h": 48,
+   "clip": "polygon(10.5px 0px, 100% 0px, 100% calc(100% - 10.5px), calc(100% - 10.5px) 100%, 0px 100%, 0px 10.5px)",
+   "bg": "rgb(255, 255, 255)",
+   "bgImg": "none",
+   "border": "0px rgba(0, 0, 0, 0.54)"
+  },
+  {
+   "tag": "span",
+   "cls": "CustomButton_initialBackground__oVUoX",
+   "w": 48,
+   "h": 48,
+   "clip": "polygon(10.5px 0px, 100% 0px, 100% calc(100% - 10.5px), calc(100% - 10.5px) 100%, 0px 100%, 0px 10.5px)",
+   "bg": "rgba(0, 0, 0, 0)",
+   "bgImg": "none",
+   "border": "0px rgba(0, 0, 0, 0.54)"
+  },
+  {
+   "tag": "span",
+   "cls": "CustomButton_hoverBackground__Kr6tp",
+   "w": 0,
+   "h": 48,
+   "clip": "polygon(10.5px 0px, 100% 0px, 100% calc(100% - 10.5px), calc(100% - 10.5px) 100%, 0px 100%, 0px 10.5px)",
+   "bg": "rgb(255, 255, 255)",
+   "bgImg": "none",
+   "border": "0px rgba(0, 0, 0, 0.54)"
+  },
+  {
+   "tag": "span",
+   "cls": "CustomButton_initialBackground__oVUoX",
+   "w": 48,
+   "h": 48,
+   "clip": "polygon(10.5px 0px, 100% 0px, 100% calc(100% - 10.5px), calc(100% - 10.5px) 100%, 0px 100%, 0px 10.5px)",
+   "bg": "rgba(0, 0, 0, 0)",
+   "bgImg": "none",
+   "border": "0px rgba(0, 0, 0, 0.54)"
+  },
+  {
+   "tag": "span",
+   "cls": "CustomButton_hoverBackground__Kr6tp",
+   "w": 0,
+   "h": 48,
+   "clip": "polygon(10.5px 0px, 100% 0px, 100% calc(100% - 10.5px), calc(100% - 10.5px) 100%, 0px 100%, 0px 10.5px)",
+   "bg": "rgb(255, 255, 255)",
+   "bgImg": "none",
+   "border": "0px rgba(0, 0, 0, 0.54)"
+  },
+  {
+   "tag": "div",
+   "cls": "CommonButton_frameBorder__09yLB CommonButton_darkGray__mBWvD ",
+   "w": 178,
+   "h": 50,
+   "clip": "polygon(9.65723px 0.999985px, calc(100% - 4px) 0.999985px, calc(100% - 4px) 0.999985px, calc(100% - 3.43228px) 1.04579px, calc(100% - 2.89373px) 1.17842px, calc(100% - 2.39155px) 1",
+   "bg": "rgb(82, 82, 82)",
+   "bgImg": "none",
+   "border": "0px rgb(34, 34, 34)"
+  },
+  {
+   "tag": "div",
+   "cls": "CommonButton_frame__HuST7",
+   "w": 176,
+   "h": 48,
+   "clip": "polygon(9.65723px 0.999985px, calc(100% - 4px) 0.999985px, calc(100% - 4px) 0.999985px, calc(100% - 3.43228px) 1.04579px, calc(100% - 2.89373px) 1.17842px, calc(100% - 2.39155px) 1",
+   "bg": "rgb(82, 82, 82)",
+   "bgImg": "none",
+   "border": "0px rgb(34, 34, 34)"
+  },
+  {
+   "tag": "span",
+   "cls": "CustomButton_initialBackground__oVUoX",
+   "w": 48,
+   "h": 48,
+   "clip": "polygon(10.5px 0px, 100% 0px, 100% calc(100% - 10.5px), calc(100% - 10.5px) 100%, 0px 100%, 0px 10.5px)",
+   "bg": "rgba(0, 0, 0, 0)",
+   "bgImg": "none",
+   "border": "0px rgba(0, 0, 0, 0.54)"
+  },
+  {
+   "tag": "span",
+   "cls": "CustomButton_hoverBackground__Kr6tp",
+   "w": 0,
+   "h": 48,
+   "clip": "polygon(10.5px 0px, 100% 0px, 100% calc(100% - 10.5px), calc(100% - 10.5px) 100%, 0px 100%, 0px 10.5px)",
+   "bg": "rgb(255, 255, 255)",
+   "bgImg": "none",
+   "border": "0px rgba(0, 0, 0, 0.54)"
+  },
+  {
+   "tag": "span",
+   "cls": "CustomButton_initialBackground__oVUoX",
+   "w": 48,
+   "h": 48,
+   "clip": "polygon(10.5px 0px, 100% 0px, 100% calc(100% - 10.5px), calc(100% - 10.5px) 100%, 0px 100%, 0px 10.5px)",
+   "bg": "rgba(0, 0, 0, 0)",
+   "bgImg": "none",
+   "border": "0px rgba(0, 0, 0, 0.54)"
+  },
+  {
+   "tag": "span",
+   "cls": "CustomButton_hoverBackground__Kr6tp",
+   "w": 0,
+   "h": 48,
+   "clip": "polygon(10.5px 0px, 100% 0px, 100% calc(100% - 10.5px), calc(100% - 10.5px) 100%, 0px 100%, 0px 10.5px)",
+   "bg": "rgb(255, 255, 255)",
+   "bgImg": "none",
+   "border": "0px rgba(0, 0, 0, 0.54)"
+  },
+  {
+   "tag": "span",
+   "cls": "CustomButton_initialBackground__oVUoX",
+   "w": 48,
+   "h": 48,
+   "clip": "polygon(10.5px 0px, 100% 0px, 100% calc(100% - 10.5px), calc(100% - 10.5px) 100%, 0px 100%, 0px 10.5px)",
+   "bg": "rgba(0, 0, 0, 0)",
+   "bgImg": "none",
+   "border": "0px rgba(0, 0, 0, 0.54)"
+  },
+  {
+   "tag": "span",
+   "cls": "CustomButton_hoverBackground__Kr6tp",
+   "w": 0,
+   "h": 48,
+   "clip": "polygon(10.5px 0px, 100% 0px, 100% calc(100% - 10.5px), calc(100% - 10.5px) 100%, 0px 100%, 0px 10.5px)",
+   "bg": "rgb(255, 255, 255)",
+   "bgImg": "none",
+   "border": "0px rgba(0, 0, 0, 0.54)"
+  },
+  {
+   "tag": "div",
+   "cls": "CommonButton_frameBorder__09yLB CommonButton_darkGray__mBWvD ",
+   "w": 178,
+   "h": 50,
+   "clip": "polygon(9.65723px 0.999985px, calc(100% - 4px) 0.999985px, calc(100% - 4px) 0.999985px, calc(100% - 3.43228px) 1.04579px, calc(100% - 2.89373px) 1.17842px, calc(100% - 2.39155px) 1",
+   "bg": "rgb(82, 82, 82)",
+   "bgImg": "none",
+   "border": "0px rgb(34, 34, 34)"
+  },
+  {
+   "tag": "div",
+   "cls": "CommonButton_frame__HuST7",
+   "w": 176,
+   "h": 48,
+   "clip": "polygon(9.65723px 0.999985px, calc(100% - 4px) 0.999985px, calc(100% - 4px) 0.999985px, calc(100% - 3.43228px) 1.04579px, calc(100% - 2.89373px) 1.17842px, calc(100% - 2.39155px) 1",
+   "bg": "rgb(82, 82, 82)",
+   "bgImg": "none",
+   "border": "0px rgb(34, 34, 34)"
+  },
+  {
+   "tag": "span",
+   "cls": "CustomButton_initialBackground__oVUoX",
+   "w": 48,
+   "h": 48,
+   "clip": "polygon(10.5px 0px, 100% 0px, 100% calc(100% - 10.5px), calc(100% - 10.5px) 100%, 0px 100%, 0px 10.5px)",
+   "bg": "rgba(0, 0, 0, 0)",
+   "bgImg": "none",
+   "border": "0px rgba(0, 0, 0, 0.54)"
+  },
+  {
+   "tag": "span",
+   "cls": "CustomButton_hoverBackground__Kr6tp",
+   "w": 0,
+   "h": 48,
+   "clip": "polygon(10.5px 0px, 100% 0px, 100% calc(100% - 10.5px), calc(100% - 10.5px) 100%, 0px 100%, 0px 10.5px)",
+   "bg": "rgb(255, 255, 255)",
+   "bgImg": "none",
+   "border": "0px rgba(0, 0, 0, 0.54)"
+  },
+  {
+   "tag": "span",
+   "cls": "CustomButton_initialBackground__oVUoX",
+   "w": 48,
+   "h": 48,
+   "clip": "polygon(10.5px 0px, 100% 0px, 100% calc(100% - 10.5px), calc(100% - 10.5px) 100%, 0px 100%, 0px 10.5px)",
+   "bg": "rgba(0, 0, 0, 0)",
+   "bgImg": "none",
+   "border": "0px rgba(0, 0, 0, 0.54)"
+  },
+  {
+   "tag": "span",
+   "cls": "CustomButton_hoverBackground__Kr6tp",
+   "w": 0,
+   "h": 48,
+   "clip": "polygon(10.5px 0px, 100% 0px, 100% calc(100% - 10.5px), calc(100% - 10.5px) 100%, 0px 100%, 0px 10.5px)",
+   "bg": "rgb(255, 255, 255)",
+   "bgImg": "none",
+   "border": "0px rgba(0, 0, 0, 0.54)"
+  }
+ ],
+ "grads": [],
+ "shadows": []
+}

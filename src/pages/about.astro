@@ -1,0 +1,122 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+import ModuleLabel from "../components/ModuleLabel.astro";
+import { site, capabilities, experience } from "../data/site";
+---
+
+<BaseLayout title="About" description={site.tagline}>
+  <section class="page-head">
+    <div class="container">
+      <div class="hero-eyebrow">
+        <ModuleLabel index="003" label="Profile" strong="About" />
+        <span class="mono muted">{site.location}</span>
+      </div>
+
+      <div class="hero-grid">
+        <div>
+          <h1 class="display page-title">
+            Saya suka bagian<br />yang <em>tidak rapi.</em>
+          </h1>
+        </div>
+        <aside class="hero-side">
+          <p class="lede" style="font-size:16px">
+            Enam tahun terakhir saya bekerja di antara model dan infrastruktur:
+            memastikan angka yang keluar dari sistem benar-benar dipakai untuk
+            mengambil keputusan.
+          </p>
+        </aside>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" style="padding-top:0">
+    <div class="container">
+      <div class="grid-12 split">
+        <div class="col-side">
+          <div class="mono muted">01 — Pendekatan</div>
+        </div>
+        <div class="col-main prose" data-reveal>
+          <p>
+            Saya mulai dari pertanyaan, bukan dari model. Sebelum menulis satu
+            baris kode, saya ingin tahu keputusan apa yang akan berubah, siapa
+            yang membacanya, dan bagaimana kita akan tahu bila prediksi keliru.
+          </p>
+          <p>
+            Karena itu banyak pekerjaan saya terlihat seperti pekerjaan data
+            engineering: kontrak data, pengujian, dokumentasi keputusan,
+            pemantauan. Model yang bagus tanpa fondasi itu hanya akan menjadi
+            grafik yang tidak dipercaya siapa pun.
+          </p>
+          <p>
+            Saya juga menulis dan mengajar — terutama tentang cara menjelaskan
+            model tanpa menyederhanakan terlalu jauh.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" style="padding-top:0">
+    <div class="container">
+      <div class="section-head-top">
+        <ModuleLabel index="004" label="Capabilities" strong="Kapabilitas" />
+        <span class="mono muted">04 area</span>
+      </div>
+      <div class="cap-grid">
+        {
+          capabilities.map((c) => (
+            <article class="cap" data-reveal>
+              <span class="cap-index">{c.index} / 04</span>
+              <h3 class="cap-title">{c.title}</h3>
+              <ul class="cap-list">
+                {c.items.map((i) => <li>{i}</li>)}
+              </ul>
+            </article>
+          ))
+        }
+      </div>
+    </div>
+  </section>
+
+  <section class="section" style="padding-top:0">
+    <div class="container">
+      <div class="section-head-top">
+        <ModuleLabel index="005" label="Experience" strong="Pengalaman" />
+        <span class="mono muted">2019 — sekarang</span>
+      </div>
+      <div class="timeline">
+        {
+          experience.map((e) => (
+            <article class="tl-row" data-reveal>
+              <span class="tl-period">{e.period}</span>
+              <div>
+                <div class="tl-role">{e.role}</div>
+                <div class="tl-org">{e.org}</div>
+              </div>
+              <span class="tl-place">{e.place}</span>
+            </article>
+          ))
+        }
+      </div>
+    </div>
+  </section>
+
+  <div class="blade" style="--blade-fill:var(--console)" aria-hidden="true"></div>
+  <section class="console section">
+    <div class="container">
+      <div class="contact-grid">
+        <h2 class="display contact-title">
+          Mari bicara soal<br /><em>masalah Anda.</em>
+        </h2>
+        <div class="contact-links">
+          <a class="contact-link" href={`mailto:${site.email}`}>
+            <span>Email</span><span>{site.email}</span>
+          </a>
+          <a class="contact-link" href="/contact">
+            <span>Halaman kontak</span><span>Detail &amp; ketersediaan →</span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+</BaseLayout>

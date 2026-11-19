@@ -1,0 +1,19 @@
+{
+  "name": "portfolio",
+  "type": "module",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "astro dev",
+    "start": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "check": "astro check"
+  },
+  "dependencies": {
+    "astro": "^7.4.13",
+    "motion": "^14.14.0",
+    "tailwindcss": "^4.3.5",
+    "@tailwindcss/vite": "^4.3.5"
+  }
+}

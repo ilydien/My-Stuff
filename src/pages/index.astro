@@ -1,0 +1,165 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+import ModuleLabel from "../components/ModuleLabel.astro";
+import ProjectCard from "../components/ProjectCard.astro";
+import { site, projects, capabilities } from "../data/site";
+
+const featured = projects.slice(0, 3);
+const [first, second, third] = featured;
+---
+
+<BaseLayout title="Data Scientist & ML Engineer">
+  <!-- ============ HERO ============ -->
+  <section class="hero" data-dark-hero>
+    <div class="container">
+      <div class="hero-eyebrow">
+        <ModuleLabel index="001" label="Profile" strong="Profile" />
+        <span class="mono muted">2026 — {site.location}</span>
+      </div>
+
+      <div class="hero-grid">
+        <div>
+          <h1 class="display hero-title">
+            <span class="hero-line"><span>Membaca data,</span></span>
+            <span class="hero-line"><span>merancang</span></span>
+            <span class="hero-line"><span><em>keputusan.</em></span></span>
+          </h1>
+          <div class="hero-actions">
+            <a class="btn" href="/work">
+              Lihat karya
+              <span class="btn-arrow" aria-hidden="true">→</span>
+            </a>
+            <a class="btn btn--ghost" href={`mailto:${site.email}`}>
+              Mulai percakapan
+            </a>
+          </div>
+        </div>
+
+        <aside class="hero-side">
+          <p class="lede">{site.tagline}</p>
+          <dl class="hero-facts">
+            <div class="hero-fact">
+              <dt>Peran</dt>
+              <dd>{site.role}</dd>
+            </div>
+            <div class="hero-fact">
+              <dt>Basis</dt>
+              <dd>{site.location} · {site.timezone}</dd>
+            </div>
+            <div class="hero-fact">
+              <dt>Status</dt>
+              <dd>{site.availability}</dd>
+            </div>
+          </dl>
+        </aside>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ SELECTED WORK ============ -->
+  <section class="section section--rule" id="work">
+    <div class="container">
+      <div class="section-head-top">
+        <ModuleLabel index="002" label="Selected work" strong="Selected work" />
+        <span class="mono muted">{projects.length} proyek · 2024—2026</span>
+      </div>
+      <div class="section-head">
+        <h2 class="display section-title">
+          Kerja yang bisa<br />dipertanggungjawabkan.
+        </h2>
+        <p class="section-desc">
+          Setiap proyek dimulai dari pertanyaan yang jelas: keputusan apa yang
+          ingin diubah, dan bagaimana kita tahu perubahannya berhasil.
+        </p>
+      </div>
+
+      <div class="work-grid">
+        <ProjectCard project={first} variant="wide" />
+        <ProjectCard project={second} variant="narrow" delay={60} />
+        <ProjectCard project={third} variant="half" delay={0} />
+        <div class="work-card work-card--half" data-reveal delay={60}>
+          <div class="work-media" style="background:var(--paper-2);border:1px solid var(--line)">
+            <div
+              style="position:absolute;inset:0;display:grid;place-content:center;text-align:center;gap:12px;padding:32px"
+            >
+              <span class="mono muted">Arsip lengkap</span>
+              <span class="display" style="font-size:clamp(28px,3vw,40px);line-height:1.1"
+                >Semua proyek,<br />catatan, dan eksperimen.</span
+              >
+              <a class="link-underline" href="/work" style="margin:12px auto 0"
+                >Buka arsip <span aria-hidden="true">→</span></a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ CAPABILITIES ============ -->
+  <section class="section" style="padding-top:0">
+    <div class="container">
+      <div class="section-head-top">
+        <ModuleLabel index="003" label="Capabilities" strong="Capabilities" />
+        <span class="mono muted">End-to-end</span>
+      </div>
+      <div class="section-head">
+        <h2 class="display section-title">Dari eksperimen<br />ke produksi.</h2>
+        <p class="section-desc">
+          Empat lapisan kerja yang biasanya terpisah di banyak tim — saya
+          menyatukannya supaya model tidak berhenti di notebook.
+        </p>
+      </div>
+
+      <div class="cap-grid" style="margin-top:24px">
+        {
+          capabilities.map((c) => (
+            <article class="cap" data-reveal>
+              <span class="cap-index">{c.index} / 04</span>
+              <h3 class="cap-title">{c.title}</h3>
+              <ul class="cap-list">
+                {c.items.map((i) => (
+                  <li>{i}</li>
+                ))}
+              </ul>
+            </article>
+          ))
+        }
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ CONTACT ============ -->
+  <div class="blade" style="--blade-fill:var(--console)" aria-hidden="true"></div>
+  <section class="console section" id="contact">
+    <div class="container">
+      <div class="section-head-top">
+        <ModuleLabel index="004" label="Contact" strong="Contact" />
+        <span class="mono" style="color:#7f8a83">{site.timezone}</span>
+      </div>
+      <div class="contact-grid">
+        <div>
+          <h2 class="display contact-title">
+            Ada masalah yang<br />layak <em>diselesaikan?</em>
+          </h2>
+          <div class="hero-actions">
+            <a class="btn btn--accent" href={`mailto:${site.email}`}>
+              {site.email}
+              <span class="btn-arrow" aria-hidden="true">→</span>
+            </a>
+          </div>
+        </div>
+        <div class="contact-links">
+          {
+            site.socials.map((s) => (
+              <a class="contact-link" href={s.href} target="_blank" rel="noopener">
+                <span>{s.label}</span>
+                <span>{s.href.replace(/^mailto:|^https?:\/\/(www\.)?/, "")}</span>
+              </a>
+            ))
+          }
+        </div>
+      </div>
+    </div>
+  </section>
+</BaseLayout>

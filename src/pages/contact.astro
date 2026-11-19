@@ -1,0 +1,82 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+import ModuleLabel from "../components/ModuleLabel.astro";
+import { site } from "../data/site";
+---
+
+<BaseLayout title="Contact" description="Cara menghubungi dan apa yang perlu disiapkan.">
+  <section class="page-head">
+    <div class="container">
+      <div class="hero-eyebrow">
+        <ModuleLabel index="005" label="Contact" strong="Contact" />
+        <span class="mono muted">{site.availability}</span>
+      </div>
+      <h1 class="display page-title">
+        Kirim konteks,<br />bukan sekadar <em>sapaan.</em>
+      </h1>
+    </div>
+  </section>
+
+  <section class="section" style="padding-top:0">
+    <div class="container">
+      <div class="grid-12">
+        <div class="col-5">
+          <a
+            class="display"
+            href={`mailto:${site.email}`}
+            style="font-size:var(--fs-2xl);line-height:1.05;letter-spacing:-0.03em;border-bottom:1px solid var(--line-2);display:inline-block;padding-bottom:8px"
+          >
+            {site.email}
+          </a>
+          <dl class="hero-facts" style="margin-top:40px">
+            <div class="hero-fact"><dt>Basis</dt><dd>{site.location}</dd></div>
+            <div class="hero-fact"><dt>Zona</dt><dd>{site.timezone}</dd></div>
+            <div class="hero-fact"><dt>Respons</dt><dd>2—3 hari kerja</dd></div>
+            <div class="hero-fact"><dt>Status</dt><dd>{site.availability}</dd></div>
+          </dl>
+        </div>
+
+        <div class="prose col-half" data-reveal>
+          <h2>Agar percakapan langsung berguna</h2>
+          <ul>
+            <li>Keputusan apa yang sedang ingin Anda perbaiki.</li>
+            <li>Data seperti apa yang tersedia dan siapa pemiliknya.</li>
+            <li>Batas waktu dan batasan organisasi yang nyata.</li>
+            <li>Definisi “berhasil” versi Anda — walau masih kasar.</li>
+          </ul>
+          <h3>Yang bisa saya bantu</h3>
+          <p>
+            Desain sistem prediksi, audit model yang sudah berjalan, perapian
+            pipeline data, atau pendampingan tim yang baru membangun fungsi data.
+          </p>
+          <div class="hero-actions">
+            <a class="btn" href={`mailto:${site.email}?subject=Proyek%20baru`}>
+              Tulis email
+              <span class="btn-arrow" aria-hidden="true">→</span>
+            </a>
+            <a class="btn btn--ghost" href="/work">Lihat studi kasus</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="blade" style="--blade-fill:var(--console)" aria-hidden="true"></div>
+  <section class="console section">
+    <div class="container">
+      <div class="section-head-top">
+        <ModuleLabel index="—" label="Elsewhere" strong="Jejak lain" />
+      </div>
+      <div class="contact-links">
+        {
+          site.socials.map((s) => (
+            <a class="contact-link" href={s.href} target="_blank" rel="noopener">
+              <span>{s.label}</span>
+              <span>{s.href.replace(/^mailto:|^https?:\/\/(www\.)?/, "")}</span>
+            </a>
+          ))
+        }
+      </div>
+    </div>
+  </section>
+</BaseLayout>

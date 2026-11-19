@@ -1,0 +1,59 @@
+{
+ "swipers": [
+  {
+   "cls": "swiper swiper-fade swiper-initialized swiper-horizontal swiper-watch-progress swiper-backf",
+   "speed": 300,
+   "effect": "fade",
+   "loop": true,
+   "slidesPerView": 1,
+   "spaceBetween": 0,
+   "autoplay": null,
+   "breakpoints": null,
+   "slides": 5
+  },
+  {
+   "cls": "swiper swiper-initialized swiper-horizontal swiper-free-mode",
+   "speed": 300,
+   "effect": "slide",
+   "loop": true,
+   "slidesPerView": 4.5,
+   "spaceBetween": 0,
+   "freeMode": {
+    "enabled": true,
+    "momentum": true,
+    "momentumRatio": 1,
+    "momentumBounce": true,
+    "momentumBounceRatio": 1,
+    "momentumVelocityRatio": 1,
+    "sticky": false,
+    "minimumVelocity": 0.02
+   },
+   "autoplay": null,
+   "breakpoints": null,
+   "slides": 11
+  },
+  {
+   "cls": "swiper swiper-fade swiper-initialized swiper-horizontal swiper-watch-progress Footer_swipe",
+   "speed": 1200,
+   "effect": "fade",
+   "loop": true,
+   "slidesPerView": 1,
+   "spaceBetween": 0,
+   "autoplay": {
+    "delay": 6000,
+    "disableOnInteraction": false
+   },
+   "running": true,
+   "breakpoints": null,
+   "slides": 19
+  }
+ ],
+ "headerBefore": {
+  "top": 0,
+  "transform": "none",
+  "shadow": "none",
+  "bg": "rgba(0, 0, 0, 0)",
+  "pos": "fixed"
+ },
+ "scrollY": 0
+}

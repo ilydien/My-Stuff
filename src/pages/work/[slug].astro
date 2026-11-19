@@ -1,0 +1,120 @@
+---
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import ModuleLabel from "../../components/ModuleLabel.astro";
+import { projects } from "../../data/site";
+
+export function getStaticPaths() {
+  return projects.map((p) => ({ params: { slug: p.slug }, props: { project: p } }));
+}
+
+const { project } = Astro.props;
+const currentIndex = projects.findIndex((p) => p.slug === project.slug);
+const next = projects[(currentIndex + 1) % projects.length];
+---
+
+<BaseLayout
+  title={project.title}
+  description={project.summary}
+  art={project.art}
+>
+  <article>
+    <header class="page-head">
+      <div class="container">
+        <div class="hero-eyebrow">
+          <ModuleLabel index={project.index} label="Case study" strong="Case study" />
+          <span class="mono muted">{project.year} — {project.client}</span>
+        </div>
+
+        <div class="hero-grid">
+          <div>
+            <h1 class="display page-title" style="margin-top:28px;max-width:22ch">
+              {project.title}
+            </h1>
+          </div>
+          <aside class="hero-side">
+            <p class="lede" style="font-size:16px">{project.summary}</p>
+            <dl class="meta-table">
+              <div class="meta-row"><dt>Peran</dt><dd>{project.role}</dd></div>
+              <div class="meta-row"><dt>Klien</dt><dd>{project.client}</dd></div>
+              <div class="meta-row"><dt>Tahun</dt><dd>{project.year}</dd></div>
+              <div class="meta-row"><dt>Stack</dt><dd>{project.stack.join(" · ")}</dd></div>
+            </dl>
+          </aside>
+        </div>
+      </div>
+    </header>
+
+    <div class="container">
+      <div class="figure-block" data-reveal></div>
+    </div>
+
+    <section class="section">
+      <div class="container">
+        <div class="metric-grid" data-reveal>
+          {
+            project.metrics.map((m) => (
+              <div class="metric">
+                <div class="metric-value">{m.value}</div>
+                <div class="metric-label">{m.label}</div>
+              </div>
+            ))
+          }
+        </div>
+      </div>
+    </section>
+
+    <section class="section" style="padding-top:0">
+      <div class="container">
+        <div class="grid-12 split">
+          <div class="col-side">
+            <div class="mono muted">01 — Konteks</div>
+          </div>
+          <div class="col-main prose" data-reveal>
+            <p>{project.problem}</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" style="padding-top:0">
+      <div class="container">
+        <div class="grid-12 split">
+          <div class="col-side">
+            <div class="mono muted">02 — Pendekatan</div>
+          </div>
+          <div class="col-main prose" data-reveal>
+            <ul>
+              {project.approach.map((a) => <li>{a}</li>)}
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" style="padding-top:0">
+      <div class="container">
+        <div class="grid-12 split">
+          <div class="col-side">
+            <div class="mono muted">03 — Hasil</div>
+          </div>
+          <div class="col-main prose" data-reveal>
+            <p><strong>{project.outcome}</strong></p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="blade" style="--blade-fill:var(--console)" aria-hidden="true"></div>
+    <section class="console section">
+      <div class="container">
+        <div class="section-head-top">
+          <ModuleLabel index="—" label="Next" strong="Proyek berikutnya" />
+        </div>
+        <a href={`/work/${next.slug}`} class="contact-link next-link">
+          <span class="display next-title">{next.title}</span>
+          <span aria-hidden="true" class="next-arrow">→</span>
+        </a>
+      </div>
+    </section>
+  </article>
+</BaseLayout>

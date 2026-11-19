@@ -1,0 +1,51 @@
+---
+import type { Project } from "../data/site";
+
+interface Props {
+  project: Project;
+  variant?: "wide" | "narrow" | "half" | "";
+  delay?: number;
+}
+
+const { project, variant = "", delay = 0 } = Astro.props;
+---
+
+<a
+  class={`work-card ${variant ? `work-card--${variant}` : ""}`}
+  href={`/work/${project.slug}`}
+  data-reveal
+  style={`transition-delay:${delay}ms;--art-a:${project.art.a};--art-b:${project.art.b}`}
+>
+  <figure class="work-media">
+    <div class="work-art" aria-hidden="true"></div>
+    <div class="work-art-label">
+      <span class="work-art-index">
+        {project.index} — {project.year}
+      </span>
+      <span class="work-art-mark">
+        {project.title.split(" ").slice(0, 2).join(" ")}
+      </span>
+    </div>
+    <span class="work-arrow" aria-hidden="true">
+      <svg width="14" height="14" viewBox="0 0 14 14" fill="none">
+        <path d="M1 13L13 1M13 1H4M13 1V10" stroke="currentColor" />
+      </svg>
+    </span>
+  </figure>
+
+  <div class="work-body">
+    <h3 class="work-title">{project.title}</h3>
+    <p class="work-summary">{project.summary}</p>
+    <div class="work-meta">
+      <span>{project.role}</span>
+      <span class="dot"></span>
+      {project.stack.slice(0, 3).map((s) => (
+        <>
+          <span>{s}</span>
+          <span class="dot"></span>
+        </>
+      ))}
+      <span>{project.client}</span>
+    </div>
+  </div>
+</a>

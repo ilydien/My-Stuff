@@ -1,0 +1,15 @@
+---
+interface Props {
+  index: string;
+  label: string;
+  strong?: string;
+  class?: string;
+}
+const { index, label, strong, class: cls = "" } = Astro.props;
+---
+
+<div class={`module-label ${cls}`}>
+  <span>Module.{index}</span>
+  <span class="sep">//</span>
+  <span class={strong ? "strong" : ""}>{strong ?? label}</span>
+</div>

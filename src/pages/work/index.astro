@@ -1,0 +1,43 @@
+---
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import ModuleLabel from "../../components/ModuleLabel.astro";
+import ProjectCard from "../../components/ProjectCard.astro";
+import { projects } from "../../data/site";
+---
+
+<BaseLayout
+  title="Work"
+  description="Arsip proyek data science, machine learning, dan data engineering."
+>
+  <section class="page-head">
+    <div class="container">
+      <div class="hero-eyebrow">
+        <ModuleLabel index="002" label="Archive" strong="Work" />
+        <span class="mono muted">{projects.length} proyek terpilih</span>
+      </div>
+      <h1 class="display page-title">Arsip kerja &amp; eksperimen.</h1>
+      <p class="lede" style="margin-top:24px">
+        Proyek yang sudah melewati produksi, dengan angka yang bisa
+        dipertanggungjawabkan dan keputusan yang terdokumentasi.
+      </p>
+    </div>
+  </section>
+
+  <section class="section" style="padding-top:0">
+    <div class="container">
+      <div class="work-grid">
+        {
+          projects.map((p, i) => (
+            <ProjectCard
+              project={p}
+              variant={i % 3 === 0 ? "half" : "half"}
+              delay={i * 50}
+            />
+          ))
+        }
+      </div>
+    </div>
+  </section>
+
+  <div class="blade" style="--blade-fill:var(--console)" aria-hidden="true"></div>
+</BaseLayout>

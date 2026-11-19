@@ -1,0 +1,126 @@
+---
+import "../styles/global.css";
+import Header from "../components/Header.astro";
+import Footer from "../components/Footer.astro";
+import { site } from "../data/site";
+
+interface Props {
+  title: string;
+  description?: string;
+  art?: { a: string; b: string };
+}
+
+const {
+  title,
+  description = site.tagline,
+  art,
+} = Astro.props;
+const path = Astro.url.pathname;
+const fullTitle = `${title} — ${site.name}`;
+---
+
+<!doctype html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content={description} />
+    <meta name="theme-color" content="#f6f4ef" />
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+    <link
+      rel="preload"
+      href="/fonts/Inter-var.woff2"
+      as="font"
+      type="font/woff2"
+      crossorigin
+    />
+    <title>{fullTitle}</title>
+    <noscript>
+      <style>
+        [data-reveal] {
+          opacity: 1;
+          transform: none;
+        }
+      </style>
+    </noscript>
+    {art && (
+      <style define:vars={{ "art-a": art.a, "art-b": art.b }}></style>
+    )}
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Lompat ke konten</a>
+    <Header path={path} />
+    <main id="main">
+      <slot />
+    </main>
+    <Footer />
+
+    <script>
+      import { inView } from "motion";
+
+      const header = document.querySelector<HTMLElement>(".site-header");
+      const hero = document.querySelector<HTMLElement>("[data-dark-hero]");
+      const toggle = document.querySelector<HTMLButtonElement>(".menu-toggle");
+      const menu = document.querySelector<HTMLElement>(".mobile-menu");
+
+      const menuOpen = () => menu?.dataset.open === "true";
+
+      const syncHeader = () => {
+        if (!header) return;
+        header.dataset.scrolled = window.scrollY > 8 ? "true" : "false";
+        const offset = header.offsetHeight || 76;
+        const overHero =
+          !!hero && !menuOpen() && window.scrollY < hero.offsetHeight - offset;
+        header.dataset.overHero = overHero ? "true" : "false";
+      };
+      syncHeader();
+      window.addEventListener("scroll", syncHeader, { passive: true });
+      window.addEventListener("resize", syncHeader);
+      window.addEventListener("load", syncHeader);
+      requestAnimationFrame(syncHeader);
+      document.fonts?.ready.then(syncHeader);
+
+      const setMenu = (open: boolean) => {
+        if (!menu || !toggle) return;
+        menu.dataset.open = String(open);
+        toggle.setAttribute("aria-expanded", String(open));
+        document.documentElement.style.overflow = open ? "hidden" : "";
+        syncHeader();
+      };
+      toggle?.addEventListener("click", () => {
+        setMenu(menu?.dataset.open !== "true");
+      });
+      menu?.querySelectorAll("a").forEach((a) =>
+        a.addEventListener("click", () => setMenu(false))
+      );
+      document.addEventListener("keydown", (e) => {
+        if (e.key === "Escape") setMenu(false);
+      });
+
+      const reduced = window.matchMedia(
+        "(prefers-reduced-motion: reduce)"
+      ).matches;
+
+      if (!reduced) {
+        inView(
+          "[data-reveal]",
+          (el) => {
+            (el as HTMLElement).classList.add("is-in");
+          },
+          { margin: "0px 0px -10% 0px" }
+        );
+      } else {
+        document
+          .querySelectorAll("[data-reveal]")
+          .forEach((el) => el.classList.add("is-in"));
+      }
+
+      // Jaring pengaman: bila observer gagal/terlambat, konten tetap tampil.
+      window.setTimeout(() => {
+        document.querySelectorAll("[data-reveal]").forEach((el) => {
+          if (!el.classList.contains("is-in")) el.classList.add("is-in");
+        });
+      }, 2500);
+    </script>
+  </body>
+</html>
